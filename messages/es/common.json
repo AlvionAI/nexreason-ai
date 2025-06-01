@@ -120,107 +120,140 @@
   },
   "howToUse": {
     "title": "Cómo Usar NexReason",
-    "subtitle": "Domina el arte de la toma de decisiones impulsada por IA con nuestra guía integral",
-    "quickStart": {
+    "subtitle": "Domina el arte de la toma de decisiones con IA con nuestra guía completa",
+    "backToHome": "Volver al Inicio",
+    "gettingStarted": {
       "title": "Guía de Inicio Rápido",
+      "description": "Comienza a usar NexReason en tres simples pasos",
       "step1": {
-        "title": "Elige Tu Modo",
+        "title": "Elige tu Modo",
         "description": "Selecciona el enfoque de pensamiento analítico, emocional o creativo"
       },
       "step2": {
-        "title": "Describe Tu Decisión",
+        "title": "Describe tu Decisión",
         "description": "Proporciona contexto detallado sobre tu dilema de decisión"
       },
       "step3": {
         "title": "Obtén Análisis de IA",
-        "description": "Recibe perspectivas integrales y recomendaciones"
+        "description": "Recibe perspectivas y recomendaciones completas"
       }
     },
-    "modes": {
+    "decisionModes": {
       "title": "Entendiendo los Modos de Decisión",
+      "description": "Elige el enfoque de pensamiento correcto para tu decisión",
       "analytical": {
         "title": "Modo Analítico",
         "description": "Perfecto para decisiones basadas en datos que requieren análisis lógico, cálculos financieros y evaluación de riesgos.",
-        "exampleLabel": "Mejor para preguntas como:",
-        "example": "¿Debería invertir en bienes raíces o acciones dada mi situación financiera actual y objetivos a 10 años?"
+        "bestFor": "Mejor para:",
+        "useCase1": "Decisiones financieras y de inversión",
+        "useCase2": "Estrategia empresarial y planificación",
+        "useCase3": "Evaluación y análisis de riesgos"
       },
       "emotional": {
         "title": "Modo Emocional",
         "description": "Ideal para decisiones que involucran relaciones, valores personales y cambios de vida que impactan el bienestar.",
-        "exampleLabel": "Mejor para preguntas como:",
-        "example": "¿Debería mudarme a otra ciudad por una oportunidad laboral, considerando mi familia y conexiones sociales?"
+        "bestFor": "Mejor para:",
+        "useCase1": "Decisiones de relaciones y familia",
+        "useCase2": "Cambios de carrera y vida",
+        "useCase3": "Valores personales y ética"
       },
       "creative": {
         "title": "Modo Creativo",
         "description": "Excelente para explorar soluciones innovadoras, enfoques no convencionales y pensamiento revolucionario.",
-        "exampleLabel": "Mejor para preguntas como:",
-        "example": "¿Cómo puedo transformar mi hobby en un negocio rentable mientras mantengo mi pasión por él?"
+        "bestFor": "Mejor para:",
+        "useCase1": "Innovación y resolución de problemas",
+        "useCase2": "Proyectos creativos y emprendimientos",
+        "useCase3": "Enfoques no convencionales"
       }
     },
     "tips": {
       "title": "Consejos para Mejores Resultados",
-      "good": {
-        "title": "Haz Esto",
-        "specific": "Sé específico sobre tu situación y limitaciones",
-        "context": "Proporciona información de antecedentes relevante",
-        "constraints": "Menciona limitaciones de tiempo, presupuesto u otras",
-        "goals": "Declara claramente tus resultados deseados"
+      "description": "Sigue estas pautas para aprovechar al máximo tu análisis de decisiones",
+      "tip1": {
+        "title": "Sé Específico",
+        "description": "Proporciona contexto detallado sobre tu situación y limitaciones"
       },
-      "avoid": {
-        "title": "Evita Esto",
-        "vague": "Preguntas vagas o demasiado generales",
-        "multiple": "Hacer múltiples preguntas no relacionadas a la vez",
-        "yes_no": "Preguntas simples de sí/no sin contexto",
-        "personal": "Compartir información personal sensible"
+      "tip2": {
+        "title": "Establece Objetivos Claros",
+        "description": "Declara claramente tus resultados deseados y prioridades"
+      },
+      "tip3": {
+        "title": "Incluye Contexto",
+        "description": "Menciona información de antecedentes relevante y limitaciones"
+      },
+      "tip4": {
+        "title": "Considera el Marco Temporal",
+        "description": "Especifica cuándo necesitas tomar la decisión"
+      },
+      "tip5": {
+        "title": "Múltiples Perspectivas",
+        "description": "Prueba diferentes modos para decisiones complejas"
+      },
+      "tip6": {
+        "title": "Mantén la Mente Abierta",
+        "description": "Sé receptivo a perspectivas y soluciones inesperadas"
       }
     },
     "examples": {
       "title": "Preguntas de Ejemplo",
+      "description": "Aquí hay algunos ejemplos de preguntas de decisión bien estructuradas",
       "career": {
-        "category": "Decisión de Carrera",
-        "question": "¿Debería aceptar una oferta de trabajo que paga 30% más pero requiere reubicarse a un país diferente?"
-      },
-      "relationship": {
-        "category": "Decisión de Relación",
-        "question": "¿Es el momento adecuado para proponer matrimonio a mi pareja, considerando nuestra situación financiera y objetivos profesionales?"
+        "title": "Decisión de Carrera",
+        "question": "Pregunta de Ejemplo:",
+        "example": "¿Debería aceptar una oferta de trabajo que paga 30% más pero requiere mudarme a otro país?",
+        "whyGood": "Por qué funciona:",
+        "explanation": "Situación específica, compensaciones claras y factores medibles"
       },
       "financial": {
-        "category": "Decisión Financiera",
-        "question": "¿Debería usar mis ahorros para pagar préstamos estudiantiles o invertir en una cuenta de jubilación?"
+        "title": "Decisión Financiera",
+        "question": "Pregunta de Ejemplo:",
+        "example": "¿Debería usar mis ahorros para pagar préstamos estudiantiles o invertir en una cuenta de jubilación?",
+        "whyGood": "Por qué funciona:",
+        "explanation": "Alternativas claras con implicaciones financieras y consideraciones a largo plazo"
       },
-      "lifestyle": {
-        "category": "Decisión de Estilo de Vida",
-        "question": "¿Debería adoptar un estilo de vida minimalista vendiendo la mayoría de mis posesiones y viajando?"
+      "personal": {
+        "title": "Decisión Personal",
+        "question": "Pregunta de Ejemplo:",
+        "example": "¿Debería adoptar un estilo de vida minimalista vendiendo la mayoría de mis posesiones y viajando?",
+        "whyGood": "Por qué funciona:",
+        "explanation": "Cambio de estilo de vida con acciones claras y valores personales involucrados"
       }
     },
-    "profile": {
+    "profileSettings": {
       "title": "Configuración de Perfil y Personalización",
-      "description": "Mejora tu experiencia de análisis de decisiones configurando tu perfil personal. NexReason utiliza esta información para proporcionar perspectivas más relevantes y personalizadas.",
+      "description": "Mejora tu experiencia de análisis de decisiones configurando tu perfil personal",
       "benefits": {
-        "title": "Beneficios de Configurar el Perfil",
-        "personalized": "Obtén recomendaciones personalizadas basadas en tus preferencias y objetivos",
-        "contextual": "Recibe análisis que considera tu etapa de vida y circunstancias",
-        "relevant": "Ejemplos y escenarios más relevantes adaptados a tu situación",
-        "improved": "Mayor precisión en la evaluación de riesgos y orientación de decisiones"
+        "title": "Beneficios de la Configuración del Perfil",
+        "personalized": {
+          "title": "Recomendaciones Personalizadas",
+          "description": "Obtén recomendaciones basadas en tus preferencias y objetivos"
+        },
+        "cultural": {
+          "title": "Contexto Cultural",
+          "description": "Recibe análisis que considera tu trasfondo cultural"
+        },
+        "relevant": {
+          "title": "Ejemplos Relevantes",
+          "description": "Escenarios más relevantes adaptados a tu situación"
+        },
+        "learning": {
+          "title": "Aprendizaje Continuo",
+          "description": "Precisión mejorada basada en tus patrones de decisión"
+        }
       },
-      "setup": {
-        "title": "Cómo Configurar Tu Perfil",
-        "step1": "Haz Clic en el Ícono de Perfil",
-        "step1Description": "Busca el ícono de perfil en el encabezado de la página de análisis y haz clic en él",
-        "step2": "Completa Tu Información",
-        "step2Description": "Agrega detalles como edad, profesión, intereses, objetivos y estilo de toma de decisiones",
-        "step3": "Guarda y Disfruta",
-        "step3Description": "Guarda tu perfil y comienza a recibir análisis de decisiones personalizados"
-      },
-      "smartProfiling": {
-        "title": "Función de Perfilado Inteligente",
-        "description": "NexReason puede detectar automáticamente patrones de tus preguntas y sugerir actualizaciones de perfil para mejorar tu experiencia. Serás notificado cuando estén disponibles perspectivas inteligentes."
+      "howToSetup": {
+        "title": "Cómo Configurar tu Perfil",
+        "step1": "Haz clic en el Ícono de Perfil en el encabezado de la página de análisis",
+        "step2": "Completa tu información básica y preferencias",
+        "step3": "Establece tu estilo de toma de decisiones y objetivos",
+        "step4": "Guarda tu perfil y comienza a recibir análisis personalizado"
       }
     },
-    "languages": {
-      "title": "Soporte Multiidioma",
-      "description": "NexReason proporciona análisis igualmente detallado en todos los idiomas compatibles. Haz tu pregunta en tu idioma preferido para la mejor experiencia."
-    },
-    "cta": "Iniciar Tu Análisis"
+    "cta": {
+      "title": "¿Listo para Tomar Mejores Decisiones?",
+      "description": "Comienza tu viaje de análisis de decisiones con las perspectivas impulsadas por IA de NexReason",
+      "startAnalyzing": "Comenzar Análisis",
+      "backToHome": "Volver al Inicio"
+    }
   }
 } 

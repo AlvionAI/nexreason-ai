@@ -120,107 +120,140 @@
   },
   "howToUse": {
     "title": "NexReason Nasıl Kullanılır",
-    "subtitle": "Kapsamlı rehberimizle AI destekli karar verme sanatında ustalaşın",
-    "quickStart": {
+    "subtitle": "Kapsamlı rehberimizle yapay zeka destekli karar verme sanatında ustalaşın",
+    "backToHome": "Ana Sayfaya Dön",
+    "gettingStarted": {
       "title": "Hızlı Başlangıç Rehberi",
+      "description": "NexReason'ı üç basit adımda kullanmaya başlayın",
       "step1": {
         "title": "Modunuzu Seçin",
         "description": "Analitik, duygusal veya yaratıcı düşünce yaklaşımını seçin"
       },
       "step2": {
-        "title": "Kararınızı Açıklayın",
-        "description": "Karar ikilemiz hakkında detaylı bağlam sağlayın"
+        "title": "Kararınızı Tanımlayın",
+        "description": "Karar ikilemınız hakkında detaylı bilgi verin"
       },
       "step3": {
         "title": "AI Analizi Alın",
         "description": "Kapsamlı içgörüler ve öneriler alın"
       }
     },
-    "modes": {
+    "decisionModes": {
       "title": "Karar Modlarını Anlama",
+      "description": "Kararınız için doğru düşünce yaklaşımını seçin",
       "analytical": {
         "title": "Analitik Mod",
         "description": "Mantıklı analiz, finansal hesaplamalar ve risk değerlendirmesi gerektiren veri odaklı kararlar için mükemmel.",
-        "exampleLabel": "Şu tür sorular için en iyi:",
-        "example": "Mevcut finansal durumum ve 10 yıllık hedeflerim göz önünde bulundurulduğunda gayrimenkul mi yoksa hisse senedi mi yatırımı yapmalıyım?"
+        "bestFor": "En iyisi:",
+        "useCase1": "Finansal ve yatırım kararları",
+        "useCase2": "İş stratejisi ve planlama",
+        "useCase3": "Risk değerlendirmesi ve analizi"
       },
       "emotional": {
         "title": "Duygusal Mod",
         "description": "İlişkiler, kişisel değerler ve refahı etkileyen yaşam değişikliklerini içeren kararlar için ideal.",
-        "exampleLabel": "Şu tür sorular için en iyi:",
-        "example": "Ailem ve sosyal bağlantılarımı göz önünde bulundurarak iş fırsatı için başka bir şehre taşınmalı mıyım?"
+        "bestFor": "En iyisi:",
+        "useCase1": "İlişki ve aile kararları",
+        "useCase2": "Kariyer ve yaşam değişiklikleri",
+        "useCase3": "Kişisel değerler ve etik"
       },
       "creative": {
         "title": "Yaratıcı Mod",
         "description": "Yenilikçi çözümler, alışılmadık yaklaşımlar ve çığır açan düşünceleri keşfetmek için harika.",
-        "exampleLabel": "Şu tür sorular için en iyi:",
-        "example": "Hobimi tutkumu koruyarak karlı bir işe nasıl dönüştürebilirim?"
+        "bestFor": "En iyisi:",
+        "useCase1": "İnovasyon ve problem çözme",
+        "useCase2": "Yaratıcı projeler ve girişimler",
+        "useCase3": "Alışılmadık yaklaşımlar"
       }
     },
     "tips": {
       "title": "Daha İyi Sonuçlar İçin İpuçları",
-      "good": {
-        "title": "Bunu Yapın",
-        "specific": "Durumunuz ve kısıtlamalarınız hakkında spesifik olun",
-        "context": "İlgili geçmiş bilgileri sağlayın",
-        "constraints": "Zaman, bütçe veya diğer sınırlamaları belirtin",
-        "goals": "İstediğiniz sonuçları açıkça belirtin"
+      "description": "Karar analizinizden en iyi şekilde yararlanmak için bu yönergeleri takip edin",
+      "tip1": {
+        "title": "Spesifik Olun",
+        "description": "Durumunuz ve kısıtlamalarınız hakkında detaylı bilgi verin"
       },
-      "avoid": {
-        "title": "Bunu Yapmayın",
-        "vague": "Belirsiz veya aşırı genel sorular",
-        "multiple": "Aynı anda birden fazla ilgisiz soru sormak",
-        "yes_no": "Bağlam olmadan basit evet/hayır soruları",
-        "personal": "Hassas kişisel bilgileri paylaşmak"
+      "tip2": {
+        "title": "Net Hedefler Belirleyin",
+        "description": "İstediğiniz sonuçları ve önceliklerinizi açıkça belirtin"
+      },
+      "tip3": {
+        "title": "Bağlam Ekleyin",
+        "description": "İlgili geçmiş bilgileri ve sınırlamaları belirtin"
+      },
+      "tip4": {
+        "title": "Zaman Çerçevesini Düşünün",
+        "description": "Kararı ne zaman vermeniz gerektiğini belirtin"
+      },
+      "tip5": {
+        "title": "Çoklu Perspektifler",
+        "description": "Karmaşık kararlar için farklı modları deneyin"
+      },
+      "tip6": {
+        "title": "Açık Fikirli Olun",
+        "description": "Beklenmedik içgörülere ve çözümlere açık olun"
       }
     },
     "examples": {
       "title": "Örnek Sorular",
+      "description": "İyi yapılandırılmış karar sorularının bazı örnekleri",
       "career": {
-        "category": "Kariyer Kararı",
-        "question": "%30 daha fazla maaş veren ama farklı bir ülkeye taşınmayı gerektiren iş teklifini kabul etmeli miyim?"
-      },
-      "relationship": {
-        "category": "İlişki Kararı",
-        "question": "Finansal durumumuz ve kariyer hedeflerimizi göz önünde bulundurarak partnerime evlenme teklifi etmek için doğru zaman mı?"
+        "title": "Kariyer Kararı",
+        "question": "Örnek Soru:",
+        "example": "%30 daha fazla maaş veren ama başka bir ülkeye taşınmayı gerektiren iş teklifini kabul etmeli miyim?",
+        "whyGood": "Neden işe yarar:",
+        "explanation": "Spesifik durum, net ödünleşimler ve ölçülebilir faktörler"
       },
       "financial": {
-        "category": "Finansal Karar",
-        "question": "Birikimlerimi öğrenci kredilerimi ödemek için mi yoksa emeklilik hesabına yatırım yapmak için mi kullanmalıyım?"
+        "title": "Finansal Karar",
+        "question": "Örnek Soru:",
+        "example": "Birikimlerimi öğrenci kredilerini ödemek için mi yoksa emeklilik hesabına yatırım yapmak için mi kullanmalıyım?",
+        "whyGood": "Neden işe yarar:",
+        "explanation": "Net alternatifler, finansal etkiler ve uzun vadeli düşünceler"
       },
-      "lifestyle": {
-        "category": "Yaşam Tarzı Kararı",
-        "question": "Eşyalarımın çoğunu satarak ve seyahat ederek minimalist bir yaşam tarzını benimser miyim?"
+      "personal": {
+        "title": "Kişisel Karar",
+        "question": "Örnek Soru:",
+        "example": "Eşyalarımın çoğunu satıp seyahat ederek minimalist bir yaşam tarzı benimser miyim?",
+        "whyGood": "Neden işe yarar:",
+        "explanation": "Net eylemler ve kişisel değerler içeren yaşam tarzı değişikliği"
       }
     },
-    "profile": {
+    "profileSettings": {
       "title": "Profil Ayarları ve Kişiselleştirme",
-      "description": "Kişisel profilinizi ayarlayarak karar analizi deneyiminizi geliştirin. NexReason bu bilgileri daha alakalı ve kişiselleştirilmiş içgörüler sağlamak için kullanır.",
+      "description": "Kişisel profilinizi ayarlayarak karar analizi deneyiminizi geliştirin",
       "benefits": {
         "title": "Profil Kurulumunun Faydaları",
-        "personalized": "Tercihleriniz ve hedeflerinize dayalı kişiselleştirilmiş öneriler alın",
-        "contextual": "Yaşam evrenizi ve koşullarınızı dikkate alan analiz alın",
-        "relevant": "Durumunuza uygun daha alakalı örnekler ve senaryolar",
-        "improved": "Risk değerlendirmesi ve karar rehberliğinde gelişmiş doğruluk"
+        "personalized": {
+          "title": "Kişiselleştirilmiş Öneriler",
+          "description": "Tercihlerinize ve hedeflerinize dayalı öneriler alın"
+        },
+        "cultural": {
+          "title": "Kültürel Bağlam",
+          "description": "Kültürel geçmişinizi dikkate alan analiz alın"
+        },
+        "relevant": {
+          "title": "İlgili Örnekler",
+          "description": "Durumunuza uygun daha ilgili senaryolar"
+        },
+        "learning": {
+          "title": "Sürekli Öğrenme",
+          "description": "Karar kalıplarınıza dayalı gelişmiş doğruluk"
+        }
       },
-      "setup": {
+      "howToSetup": {
         "title": "Profilinizi Nasıl Kuracaksınız",
-        "step1": "Profil Simgesine Tıklayın",
-        "step1Description": "Analiz sayfası başlığındaki profil simgesini bulun ve tıklayın",
-        "step2": "Bilgilerinizi Doldurun",
-        "step2Description": "Yaş, meslek, ilgi alanları, hedefler ve karar verme tarzı gibi detayları ekleyin",
-        "step3": "Kaydedin ve Keyfini Çıkarın",
-        "step3Description": "Profilinizi kaydedin ve kişiselleştirilmiş karar analizi almaya başlayın"
-      },
-      "smartProfiling": {
-        "title": "Akıllı Profilleme Özelliği",
-        "description": "NexReason sorularınızdan otomatik olarak kalıpları tespit edebilir ve deneyiminizi iyileştirmek için profil güncellemeleri önerebilir. Akıllı içgörüler mevcut olduğunda bilgilendirileceksiniz."
+        "step1": "Analiz sayfası başlığındaki Profil Simgesine tıklayın",
+        "step2": "Temel bilgilerinizi ve tercihlerinizi doldurun",
+        "step3": "Karar verme tarzınızı ve hedeflerinizi belirleyin",
+        "step4": "Profilinizi kaydedin ve kişiselleştirilmiş analiz almaya başlayın"
       }
     },
-    "languages": {
-      "title": "Çok Dilli Destek",
-      "description": "NexReason desteklenen tüm dillerde eşit derecede detaylı analiz sağlar. En iyi deneyim için sorunuzu tercih ettiğiniz dilde sorun."
-    },
-    "cta": "Analizinizi Başlatın"
+    "cta": {
+      "title": "Daha İyi Kararlar Vermeye Hazır mısınız?",
+      "description": "NexReason'ın yapay zeka destekli içgörüleriyle karar analizi yolculuğunuza başlayın",
+      "startAnalyzing": "Analize Başla",
+      "backToHome": "Ana Sayfaya Dön"
+    }
   }
 } 
