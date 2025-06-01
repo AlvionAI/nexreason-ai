@@ -258,5 +258,22 @@
       "startAnalyzing": "Start Analyzing",
       "backToHome": "Back to Home"
     }
+  },
+  "smartProfiling": {
+    "title": "🤖 Smart Profiling",
+    "newBadge": "New",
+    "detectedMessage": "We've automatically detected your profile from your questions:",
+    "usageMessage": "We can provide more personalized analyses using this information.",
+    "acceptButton": "✅ Accept",
+    "dismissButton": "❌",
+    "agePrefix": "years old",
+    "interestPrefix": "Interest:",
+    "lifeStages": {
+      "student": "Student",
+      "early_career": "Early Career",
+      "mid_career": "Mid Career",
+      "senior": "Senior",
+      "retired": "Retired"
+    }
   }
 } 

@@ -258,5 +258,22 @@
       "startAnalyzing": "Analize Başla",
       "backToHome": "Ana Sayfaya Dön"
     }
+  },
+  "smartProfiling": {
+    "title": "🤖 Akıllı Profilleme",
+    "newBadge": "Yeni",
+    "detectedMessage": "Sorularınızdan profilinizi otomatik olarak tespit ettik:",
+    "usageMessage": "Bu bilgileri kullanarak daha kişiselleştirilmiş analizler sunabiliriz.",
+    "acceptButton": "✅ Kabul Et",
+    "dismissButton": "❌",
+    "agePrefix": "yaşında",
+    "interestPrefix": "İlgi:",
+    "lifeStages": {
+      "student": "Öğrenci",
+      "early_career": "Erken Kariyer",
+      "mid_career": "Orta Kariyer",
+      "senior": "Kıdemli",
+      "retired": "Emekli"
+    }
   }
 } 

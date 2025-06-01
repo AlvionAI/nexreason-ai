@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 import { UserProfile } from '@/types';
 
 interface SmartProfilingNotificationProps {
@@ -15,6 +16,7 @@ export default function SmartProfilingNotification({
   onDismiss 
 }: SmartProfilingNotificationProps) {
   const [isVisible, setIsVisible] = useState(true);
+  const t = useTranslations('smartProfiling');
 
   if (!isVisible) return null;
 
@@ -30,20 +32,13 @@ export default function SmartProfilingNotification({
 
   const getProfileSummary = () => {
     const items = [];
-    if (detectedProfile.age) items.push(`${detectedProfile.age} yaşında`);
+    if (detectedProfile.age) items.push(`${detectedProfile.age} ${t('agePrefix')}`);
     if (detectedProfile.profession) items.push(detectedProfile.profession);
     if (detectedProfile.lifeStage) {
-      const stageMap = {
-        student: 'Öğrenci',
-        early_career: 'Erken Kariyer',
-        mid_career: 'Orta Kariyer',
-        senior: 'Kıdemli',
-        retired: 'Emekli'
-      };
-      items.push(stageMap[detectedProfile.lifeStage] || detectedProfile.lifeStage);
+      items.push(t(`lifeStages.${detectedProfile.lifeStage}`) || detectedProfile.lifeStage);
     }
     if (detectedProfile.interests && detectedProfile.interests.length > 0) {
-      items.push(`İlgi: ${detectedProfile.interests.slice(0, 2).join(', ')}`);
+      items.push(`${t('interestPrefix')} ${detectedProfile.interests.slice(0, 2).join(', ')}`);
     }
     return items.join(' • ');
   };
@@ -60,12 +55,12 @@ export default function SmartProfilingNotification({
           
           <div className="flex-1 min-w-0">
             <div className="flex items-center space-x-2 mb-2">
-              <h4 className="text-white font-semibold text-sm">🤖 Akıllı Profilleme</h4>
-              <span className="px-2 py-1 bg-white/20 text-white text-xs rounded-full">Yeni</span>
+              <h4 className="text-white font-semibold text-sm">{t('title')}</h4>
+              <span className="px-2 py-1 bg-white/20 text-white text-xs rounded-full">{t('newBadge')}</span>
             </div>
             
             <p className="text-white/90 text-sm mb-2">
-              Sorularınızdan profilinizi otomatik olarak tespit ettik:
+              {t('detectedMessage')}
             </p>
             
             <div className="bg-white/10 rounded-lg p-2 mb-3">
@@ -75,7 +70,7 @@ export default function SmartProfilingNotification({
             </div>
             
             <p className="text-white/80 text-xs mb-3">
-              Bu bilgileri kullanarak daha kişiselleştirilmiş analizler sunabiliriz.
+              {t('usageMessage')}
             </p>
             
             <div className="flex space-x-2">
@@ -83,13 +78,13 @@ export default function SmartProfilingNotification({
                 onClick={handleAccept}
                 className="flex-1 px-3 py-2 bg-white/20 text-white text-sm rounded-lg hover:bg-white/30 transition-colors"
               >
-                ✅ Kabul Et
+                {t('acceptButton')}
               </button>
               <button
                 onClick={handleDismiss}
                 className="px-3 py-2 bg-white/10 text-white/70 text-sm rounded-lg hover:bg-white/20 transition-colors"
               >
-                ❌
+                {t('dismissButton')}
               </button>
             </div>
           </div>

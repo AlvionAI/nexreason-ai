@@ -258,5 +258,22 @@
       "startAnalyzing": "Comenzar Análisis",
       "backToHome": "Volver al Inicio"
     }
+  },
+  "smartProfiling": {
+    "title": "🤖 Perfilado Inteligente",
+    "newBadge": "Nuevo",
+    "detectedMessage": "Hemos detectado automáticamente tu perfil a partir de tus preguntas:",
+    "usageMessage": "Podemos proporcionar análisis más personalizados usando esta información.",
+    "acceptButton": "✅ Aceptar",
+    "dismissButton": "❌",
+    "agePrefix": "años",
+    "interestPrefix": "Interés:",
+    "lifeStages": {
+      "student": "Estudiante",
+      "early_career": "Carrera Temprana",
+      "mid_career": "Carrera Media",
+      "senior": "Senior",
+      "retired": "Jubilado"
+    }
   }
 } 
