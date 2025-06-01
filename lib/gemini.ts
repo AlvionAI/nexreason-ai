@@ -5,7 +5,7 @@ import { generateProfessionalPrompt } from './enhanced-prompts';
 import { detectDecisionCategory, getCategoryName } from './decision-categories';
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GENERATIVE_AI_API_KEY || '');
 
 // Function to clean unwanted formatting and session IDs from API responses
 function cleanResponseText(text: string): string {
@@ -150,20 +150,20 @@ export async function analyzeDecision(
   // ENHANCED API Key debugging
   console.log(`🔍 Environment check:`, {
     nodeEnv: process.env.NODE_ENV,
-    hasApiKey: !!process.env.GEMINI_API_KEY,
-    apiKeyLength: process.env.GEMINI_API_KEY?.length || 0,
-    apiKeyPrefix: process.env.GEMINI_API_KEY?.substring(0, 10) || 'none'
+    hasApiKey: !!process.env.GOOGLE_GENERATIVE_AI_API_KEY,
+    apiKeyLength: process.env.GOOGLE_GENERATIVE_AI_API_KEY?.length || 0,
+    apiKeyPrefix: process.env.GOOGLE_GENERATIVE_AI_API_KEY?.substring(0, 10) || 'none'
   });
   
   // Check if API key exists
-  if (!process.env.GEMINI_API_KEY) {
-    console.error('❌ GEMINI_API_KEY not found in environment variables!');
-    console.error('🔧 Please add your Gemini API key to .env.local file');
-    console.error('📝 Format: GEMINI_API_KEY=your_api_key_here');
-    throw new Error('Gemini API key is required but not found in environment variables');
+  if (!process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
+    console.error('❌ GOOGLE_GENERATIVE_AI_API_KEY not found in environment variables!');
+    console.error('🔧 Please add your Google Generative AI API key to .env.local file');
+    console.error('📝 Format: GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here');
+    throw new Error('Google Generative AI API key is required but not found in environment variables');
   }
 
-  console.log('✅ Gemini API key found, proceeding with real API call');
+  console.log('✅ Google Generative AI API key found, proceeding with real API call');
 
   // Add unique timestamp to make each request unique
   const timestamp = Date.now();
@@ -184,7 +184,7 @@ export async function analyzeDecision(
     const response = await result.response;
     const text = response.text();
     
-    console.log('✅ Real Gemini API Response received (length:', text.length, 'chars)');
+    console.log('✅ Real Google Generative AI Response received (length:', text.length, 'chars)');
     console.log('📄 Response preview:', text.substring(0, 500) + '...');
     
     // NEW: Validate response language before processing
@@ -251,9 +251,9 @@ export async function analyzeDecision(
         hasEmotionalReasoning: !!analysis.emotional_reasoning,
         hasLogicalReasoning: !!analysis.logical_reasoning,
         languageValidated: true,
-        source: 'REAL_GEMINI_API' // Indicates this is from real API, not mock
+        source: 'REAL_GOOGLE_GENERATIVE_AI' // Indicates this is from real API, not mock
       });
-      console.log('🎉 SUCCESS: Real Gemini API response processed successfully!');
+      console.log('🎉 SUCCESS: Real Google Generative AI response processed successfully!');
       return analysis;
     } catch (parseError) {
       console.error('❌ Failed to parse AI response as JSON:', parseError);
@@ -262,7 +262,7 @@ export async function analyzeDecision(
       return createFallbackResponse(question, mode, detectedLanguage, detectedCategory);
     }
   } catch (error) {
-    console.error('❌ Primary Gemini API error:', error);
+    console.error('❌ Primary Google Generative AI error:', error);
     console.error('🔍 Error details:', {
       name: error instanceof Error ? error.name : 'unknown',
       message: error instanceof Error ? error.message : String(error),
@@ -317,7 +317,7 @@ export async function analyzeDecision(
     }
     
     // If all models fail, return ultra-premium fallback response
-    console.warn('⚠️ All Gemini models failed, using ultra-premium fallback response');
+    console.warn('⚠️ All Google Generative AI models failed, using ultra-premium fallback response');
     return createUltraPremiumMockResponse(mode, question, detectedLanguage, detectedCategory, personalizationContext);
   }
 }

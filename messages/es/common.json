@@ -48,6 +48,9 @@
     "analysisReady": "Tu análisis detallado de decisión está listo abajo.",
     "analyzingMessage": "Analizando tu decisión...",
     "inputHint": "Presiona Enter para enviar, Shift+Enter para nueva línea",
+    "common": {
+      "error": "Algo salió mal al analizar tu decisión. Por favor intenta de nuevo."
+    },
     "results": {
       "title": "¡Análisis de Decisión Completo!",
       "subtitle": "Tu análisis integral está listo",

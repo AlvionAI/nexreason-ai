@@ -48,6 +48,9 @@
     "analysisReady": "Detaylı karar analiziniz aşağıda hazır.",
     "analyzingMessage": "Kararınız analiz ediliyor...",
     "inputHint": "Göndermek için Enter, yeni satır için Shift+Enter",
+    "common": {
+      "error": "Kararınız analiz edilirken bir hata oluştu. Lütfen tekrar deneyin."
+    },
     "results": {
       "title": "Karar Analizi Tamamlandı!",
       "subtitle": "Kapsamlı analiziniz hazır",

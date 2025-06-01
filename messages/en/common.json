@@ -48,6 +48,9 @@
     "analysisReady": "Your detailed decision analysis is ready below.",
     "analyzingMessage": "Analyzing your decision...",
     "inputHint": "Press Enter to send, Shift+Enter for new line",
+    "common": {
+      "error": "Something went wrong while analyzing your decision. Please try again."
+    },
     "results": {
       "title": "Decision Analysis Complete!",
       "subtitle": "Your comprehensive analysis is ready",
