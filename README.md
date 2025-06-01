@@ -1,6 +1,16 @@
-# NexReason - Structured Decision-Making AI Assistant
+# Alvion AI NexReason Platform
 
-A multilingual Next.js 14 web application that helps users make structured decisions using AI-powered analysis.
+🚀 **Multilingual AI-powered decision analysis platform**
+
+## Features
+- 4 languages: English, Turkish, Spanish, Russian
+- 3 analysis modes: Analytical, Emotional, Creative
+- Google Analytics 4 integration
+- Advanced security & performance optimization
+
+## Powered by Alvion AI
+
+Visit: [nexreasonai.com](https://nexreasonai.com)
 
 ## 🌟 Features
 
