@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "home": "Home",
+    "analyze": "Analyze",
+    "howToUse": "How to Use",
+    "language": "Language"
+  },
+  "home": {
+    "title": "NexReason",
+    "subtitle": "AI-Powered Decision Intelligence",
+    "description": "Transform complex decisions into clear insights with intelligent analysis across multiple thinking frameworks",
+    "slogan": "Your next decision, guided by reason",
+    "headline": "Make better decisions with AI-powered insights",
+    "subheading": "Transform complex choices into clear, actionable decisions.",
+    "approaches": "Analytical thinking, emotional wisdom, or creative solutions - choose your approach.",
+    "getStartedMain": "Get Started",
+    "quote": "The best decisions are made when emotion and logic unite through reason.",
+    "selectMode": "Choose Your Thinking Style",
+    "modes": {
+      "analytical": {
+        "title": "Analytical",
+        "description": "Use logic, facts, and long-term implications."
+      },
+      "emotional": {
+        "title": "Emotional",
+        "description": "Focus on feelings, relationships, and intuition."
+      },
+      "creative": {
+        "title": "Creative",
+        "description": "Explore unconventional and innovative paths."
+      }
+    },
+    "getStarted": "Choose This"
+  },
+  "analyze": {
+    "title": "Decision Analysis",
+    "subtitle": "Describe your decision dilemma",
+    "placeholder": "Describe your decision dilemma in detail...",
+    "analyzeButton": "Analyze Decision",
+    "analyzing": "Analyzing...",
+    "backToHome": "Back to Home",
+    "appName": "NexReason AI",
+    "appSubtitle": "Your Decision Analysis Assistant",
+    "modeLabel": "Mode:",
+    "welcomeTitle": "Start Your Decision Analysis",
+    "welcomeDescription": "Ask me about any decision you're facing. I'll analyze it using {mode} thinking to help you make the best choice.",
+    "analysisComplete": "Analysis Complete!",
+    "analysisReady": "Your detailed decision analysis is ready below.",
+    "analyzingMessage": "Analyzing your decision...",
+    "inputHint": "Press Enter to send, Shift+Enter for new line",
+    "results": {
+      "title": "Decision Analysis Complete!",
+      "subtitle": "Your comprehensive analysis is ready",
+      "advantages": "Advantages",
+      "considerations": "Considerations", 
+      "emotionalInsight": "Emotional Insight",
+      "logicalAnalysis": "Logical Analysis",
+      "recommendation": "Recommendation",
+      "summary": "Summary",
+      "newAnalysis": "New Analysis",
+      "analyzeAnother": "Analyze Another Decision",
+      "backToHome": "Back to Home"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Retry",
+    "back": "Back"
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "basicInfo": "Basic Information",
+    "decisionStyle": "Decision Making Style",
+    "interests": "Interests",
+    "goals": "Personal Goals",
+    "values": "Core Values",
+    "age": "Age",
+    "profession": "Profession",
+    "location": "Location",
+    "riskTolerance": "Risk Tolerance",
+    "decisionStyleLabel": "Decision Style",
+    "lifeStage": "Life Stage",
+    "familyStatus": "Family Status",
+    "cancel": "Cancel",
+    "save": "Save",
+    "add": "Add",
+    "placeholders": {
+      "age": "25",
+      "profession": "Software Engineer",
+      "location": "New York, USA",
+      "interests": "Technology, Sports, Music...",
+      "goals": "Career growth, Healthy lifestyle...",
+      "values": "Honesty, Creativity, Family..."
+    },
+    "riskToleranceOptions": {
+      "low": "Low (Conservative)",
+      "medium": "Medium",
+      "high": "High (Aggressive)"
+    },
+    "decisionStyleOptions": {
+      "quick": "Quick Decision Maker",
+      "thorough": "Thorough Analyzer",
+      "collaborative": "Collaborative"
+    },
+    "lifeStageOptions": {
+      "student": "Student",
+      "early_career": "Early Career",
+      "mid_career": "Mid Career",
+      "senior": "Senior",
+      "retired": "Retired"
+    },
+    "familyStatusOptions": {
+      "single": "Single",
+      "relationship": "In Relationship",
+      "married": "Married",
+      "parent": "Parent",
+      "caregiver": "Caregiver"
+    }
+  },
+  "howToUse": {
+    "title": "How to Use NexReason",
+    "subtitle": "Master the art of AI-powered decision making with our comprehensive guide",
+    "quickStart": {
+      "title": "Quick Start Guide",
+      "step1": {
+        "title": "Choose Your Mode",
+        "description": "Select analytical, emotional, or creative thinking approach"
+      },
+      "step2": {
+        "title": "Describe Your Decision",
+        "description": "Provide detailed context about your decision dilemma"
+      },
+      "step3": {
+        "title": "Get AI Analysis",
+        "description": "Receive comprehensive insights and recommendations"
+      }
+    },
+    "modes": {
+      "title": "Understanding Decision Modes",
+      "analytical": {
+        "title": "Analytical Mode",
+        "description": "Perfect for data-driven decisions requiring logical analysis, financial calculations, and risk assessment.",
+        "exampleLabel": "Best for questions like:",
+        "example": "Should I invest in real estate or stocks given my current financial situation and 10-year goals?"
+      },
+      "emotional": {
+        "title": "Emotional Mode",
+        "description": "Ideal for decisions involving relationships, personal values, and life changes that impact well-being.",
+        "exampleLabel": "Best for questions like:",
+        "example": "Should I move to another city for a job opportunity, considering my family and social connections?"
+      },
+      "creative": {
+        "title": "Creative Mode",
+        "description": "Great for exploring innovative solutions, unconventional approaches, and breakthrough thinking.",
+        "exampleLabel": "Best for questions like:",
+        "example": "How can I transform my hobby into a profitable business while maintaining my passion for it?"
+      }
+    },
+    "tips": {
+      "title": "Tips for Better Results",
+      "good": {
+        "title": "Do This",
+        "specific": "Be specific about your situation and constraints",
+        "context": "Provide relevant background information",
+        "constraints": "Mention time, budget, or other limitations",
+        "goals": "Clearly state your desired outcomes"
+      },
+      "avoid": {
+        "title": "Avoid This",
+        "vague": "Vague or overly general questions",
+        "multiple": "Asking multiple unrelated questions at once",
+        "yes_no": "Simple yes/no questions without context",
+        "personal": "Sharing sensitive personal information"
+      }
+    },
+    "examples": {
+      "title": "Example Questions",
+      "career": {
+        "category": "Career Decision",
+        "question": "Should I accept a job offer that pays 30% more but requires relocating to a different country?"
+      },
+      "relationship": {
+        "category": "Relationship Decision",
+        "question": "Is it the right time to propose to my partner, considering our financial situation and career goals?"
+      },
+      "financial": {
+        "category": "Financial Decision",
+        "question": "Should I use my savings to pay off student loans or invest in a retirement account?"
+      },
+      "lifestyle": {
+        "category": "Lifestyle Decision",
+        "question": "Should I pursue a minimalist lifestyle by selling most of my possessions and traveling?"
+      }
+    },
+    "profile": {
+      "title": "Profile Settings & Personalization",
+      "description": "Enhance your decision analysis experience by setting up your personal profile. NexReason uses this information to provide more relevant and personalized insights.",
+      "benefits": {
+        "title": "Benefits of Profile Setup",
+        "personalized": "Get personalized recommendations based on your preferences and goals",
+        "contextual": "Receive analysis that considers your life stage and circumstances",
+        "relevant": "More relevant examples and scenarios tailored to your situation",
+        "improved": "Improved accuracy in risk assessment and decision guidance"
+      },
+      "setup": {
+        "title": "How to Set Up Your Profile",
+        "step1": "Click the Profile Icon",
+        "step1Description": "Look for the profile icon in the analyze page header and click it",
+        "step2": "Fill Your Information",
+        "step2Description": "Add details like age, profession, interests, goals, and decision-making style",
+        "step3": "Save & Enjoy",
+        "step3Description": "Save your profile and start receiving personalized decision analysis"
+      },
+      "smartProfiling": {
+        "title": "Smart Profiling Feature",
+        "description": "NexReason can automatically detect patterns from your questions and suggest profile updates to improve your experience. You'll be notified when smart insights are available."
+      }
+    },
+    "languages": {
+      "title": "Multi-Language Support",
+      "description": "NexReason provides equally detailed analysis in all supported languages. Ask your question in your preferred language for the best experience."
+    },
+    "cta": "Start Your Analysis"
+  }
+} 

@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "analyze": "Analizar",
+    "language": "Idioma"
+  },
+  "home": {
+    "title": "NexReason",
+    "subtitle": "Inteligencia de Decisiones con IA",
+    "description": "Transforma decisiones complejas en percepciones claras con análisis inteligente a través de múltiples marcos de pensamiento",
+    "slogan": "Tu próxima decisión, guiada por la razón",
+    "headline": "Toma mejores decisiones con insights potenciados por IA",
+    "subheading": "Transforma opciones complejas en decisiones claras y accionables.",
+    "approaches": "Pensamiento analítico, sabiduría emocional o soluciones creativas - elige tu enfoque.",
+    "getStartedMain": "Comenzar",
+    "quote": "Las mejores decisiones se toman cuando la emoción y la lógica se unen a través de la razón.",
+    "selectMode": "Elige Tu Estilo de Pensamiento",
+    "modes": {
+      "analytical": {
+        "title": "Analítico",
+        "description": "Usa lógica, hechos e implicaciones a largo plazo."
+      },
+      "emotional": {
+        "title": "Emocional",
+        "description": "Enfócate en sentimientos, relaciones e intuición."
+      },
+      "creative": {
+        "title": "Creativo",
+        "description": "Explora caminos poco convencionales e innovadores."
+      }
+    },
+    "getStarted": "Elegir Esto"
+  },
+  "analyze": {
+    "title": "Análisis de Decisión",
+    "subtitle": "Describe tu dilema de decisión",
+    "placeholder": "Describe tu dilema de decisión en detalle...",
+    "analyzeButton": "Analizar Decisión",
+    "analyzing": "Analizando...",
+    "backToHome": "Volver al Inicio",
+    "appName": "NexReason AI",
+    "appSubtitle": "Tu Asistente de Análisis de Decisiones",
+    "modeLabel": "Modo:",
+    "welcomeTitle": "Inicia tu Análisis de Decisión",
+    "welcomeDescription": "Pregúntame sobre cualquier decisión que enfrentes. La analizaré usando pensamiento {mode} para ayudarte a hacer la mejor elección.",
+    "analysisComplete": "¡Análisis Completo!",
+    "analysisReady": "Tu análisis detallado de decisión está listo abajo.",
+    "analyzingMessage": "Analizando tu decisión...",
+    "inputHint": "Presiona Enter para enviar, Shift+Enter para nueva línea",
+    "results": {
+      "title": "¡Análisis de Decisión Completo!",
+      "subtitle": "Tu análisis completo está listo",
+      "advantages": "Ventajas",
+      "considerations": "Consideraciones",
+      "emotionalInsight": "Perspectiva Emocional",
+      "logicalAnalysis": "Análisis Lógico",
+      "recommendation": "Recomendación",
+      "summary": "Resumen",
+      "newAnalysis": "Nuevo Análisis",
+      "analyzeAnother": "Analizar Otra Decisión",
+      "backToHome": "Volver al Inicio"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "back": "Atrás"
+  },
+  "profile": {
+    "title": "Configuración de Perfil",
+    "basicInfo": "Información Básica",
+    "decisionStyle": "Estilo de Toma de Decisiones",
+    "interests": "Intereses",
+    "goals": "Objetivos Personales",
+    "values": "Valores Fundamentales",
+    "age": "Edad",
+    "profession": "Profesión",
+    "location": "Ubicación",
+    "riskTolerance": "Tolerancia al Riesgo",
+    "decisionStyleLabel": "Estilo de Decisión",
+    "lifeStage": "Etapa de Vida",
+    "familyStatus": "Estado Familiar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "add": "Agregar",
+    "placeholders": {
+      "age": "25",
+      "profession": "Ingeniero de Software",
+      "location": "Madrid, España",
+      "interests": "Tecnología, Deportes, Música...",
+      "goals": "Crecimiento profesional, Vida saludable...",
+      "values": "Honestidad, Creatividad, Familia..."
+    },
+    "riskToleranceOptions": {
+      "low": "Bajo (Conservador)",
+      "medium": "Medio",
+      "high": "Alto (Agresivo)"
+    },
+    "decisionStyleOptions": {
+      "quick": "Decisor Rápido",
+      "thorough": "Analizador Exhaustivo",
+      "collaborative": "Colaborativo"
+    },
+    "lifeStageOptions": {
+      "student": "Estudiante",
+      "early_career": "Carrera Temprana",
+      "mid_career": "Carrera Media",
+      "senior": "Senior",
+      "retired": "Jubilado"
+    },
+    "familyStatusOptions": {
+      "single": "Soltero",
+      "relationship": "En Relación",
+      "married": "Casado",
+      "parent": "Padre/Madre",
+      "caregiver": "Cuidador"
+    }
+  }
+} 

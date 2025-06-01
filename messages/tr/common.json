@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "analyze": "Analiz Et",
+    "howToUse": "Nasıl Kullanılır",
+    "language": "Dil"
+  },
+  "home": {
+    "title": "NexReason",
+    "subtitle": "AI Destekli Karar Zekası",
+    "description": "Karmaşık kararları birden fazla düşünce çerçevesinde akıllı analiz ile net içgörülere dönüştürün",
+    "slogan": "Bir sonraki kararınız, akıl yoluyla yönlendirilsin",
+    "headline": "AI destekli içgörülerle daha iyi kararlar alın",
+    "subheading": "Karmaşık seçimleri net, uygulanabilir kararlara dönüştürün.",
+    "approaches": "Analitik düşünce, duygusal bilgelik veya yaratıcı çözümler - yaklaşımınızı seçin.",
+    "getStartedMain": "Başlayın",
+    "quote": "En iyi kararlar, duygu ve mantığın akıl yoluyla birleştiği zaman alınır.",
+    "selectMode": "Düşünce Tarzınızı Seçin",
+    "modes": {
+      "analytical": {
+        "title": "Analitik",
+        "description": "Mantık, gerçekler ve uzun vadeli sonuçları kullanın."
+      },
+      "emotional": {
+        "title": "Duygusal",
+        "description": "Duygular, ilişkiler ve sezgilere odaklanın."
+      },
+      "creative": {
+        "title": "Yaratıcı",
+        "description": "Alışılmadık ve yenilikçi yolları keşfedin."
+      }
+    },
+    "getStarted": "Bunu Seç"
+  },
+  "analyze": {
+    "title": "Karar Analizi",
+    "subtitle": "Karar ikilemini açıklayın",
+    "placeholder": "Karar ikilemini detaylı olarak açıklayın...",
+    "analyzeButton": "Kararı Analiz Et",
+    "analyzing": "Analiz ediliyor...",
+    "backToHome": "Ana Sayfaya Dön",
+    "appName": "NexReason AI",
+    "appSubtitle": "Karar Analizi Asistanınız",
+    "modeLabel": "Mod:",
+    "welcomeTitle": "Karar Analizinizi Başlatın",
+    "welcomeDescription": "Karşılaştığınız herhangi bir karar hakkında bana sorun. En iyi seçimi yapmanıza yardımcı olmak için {mode} düşünce kullanarak analiz edeceğim.",
+    "analysisComplete": "Analiz Tamamlandı!",
+    "analysisReady": "Detaylı karar analiziniz aşağıda hazır.",
+    "analyzingMessage": "Kararınız analiz ediliyor...",
+    "inputHint": "Göndermek için Enter, yeni satır için Shift+Enter",
+    "results": {
+      "title": "Karar Analizi Tamamlandı!",
+      "subtitle": "Kapsamlı analiziniz hazır",
+      "advantages": "Avantajlar",
+      "considerations": "Değerlendirmeler",
+      "emotionalInsight": "Duygusal İçgörü",
+      "logicalAnalysis": "Mantıklı Analiz",
+      "recommendation": "Öneri",
+      "summary": "Özet",
+      "newAnalysis": "Yeni Analiz",
+      "analyzeAnother": "Başka Bir Karar Analiz Et",
+      "backToHome": "Ana Sayfaya Dön"
+    }
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "retry": "Tekrar Dene",
+    "back": "Geri"
+  },
+  "profile": {
+    "title": "Profil Ayarları",
+    "basicInfo": "Temel Bilgiler",
+    "decisionStyle": "Karar Verme Tarzı",
+    "interests": "İlgi Alanları",
+    "goals": "Kişisel Hedefler",
+    "values": "Temel Değerler",
+    "age": "Yaş",
+    "profession": "Meslek",
+    "location": "Konum",
+    "riskTolerance": "Risk Toleransı",
+    "decisionStyleLabel": "Karar Tarzı",
+    "lifeStage": "Yaşam Evresi",
+    "familyStatus": "Aile Durumu",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "add": "Ekle",
+    "placeholders": {
+      "age": "25",
+      "profession": "Yazılım Mühendisi",
+      "location": "İstanbul, Türkiye",
+      "interests": "Teknoloji, Spor, Müzik...",
+      "goals": "Kariyer gelişimi, Sağlıklı yaşam...",
+      "values": "Dürüstlük, Yaratıcılık, Aile..."
+    },
+    "riskToleranceOptions": {
+      "low": "Düşük (Muhafazakar)",
+      "medium": "Orta",
+      "high": "Yüksek (Agresif)"
+    },
+    "decisionStyleOptions": {
+      "quick": "Hızlı Karar Verici",
+      "thorough": "Kapsamlı Analizci",
+      "collaborative": "İşbirlikçi"
+    },
+    "lifeStageOptions": {
+      "student": "Öğrenci",
+      "early_career": "Kariyer Başlangıcı",
+      "mid_career": "Orta Kariyer",
+      "senior": "Üst Düzey",
+      "retired": "Emekli"
+    },
+    "familyStatusOptions": {
+      "single": "Bekar",
+      "relationship": "İlişkide",
+      "married": "Evli",
+      "parent": "Ebeveyn",
+      "caregiver": "Bakıcı"
+    }
+  },
+  "howToUse": {
+    "title": "NexReason Nasıl Kullanılır",
+    "subtitle": "Kapsamlı rehberimizle AI destekli karar verme sanatında ustalaşın",
+    "quickStart": {
+      "title": "Hızlı Başlangıç Rehberi",
+      "step1": {
+        "title": "Modunuzu Seçin",
+        "description": "Analitik, duygusal veya yaratıcı düşünce yaklaşımını seçin"
+      },
+      "step2": {
+        "title": "Kararınızı Açıklayın",
+        "description": "Karar ikilemiz hakkında detaylı bağlam sağlayın"
+      },
+      "step3": {
+        "title": "AI Analizi Alın",
+        "description": "Kapsamlı içgörüler ve öneriler alın"
+      }
+    },
+    "modes": {
+      "title": "Karar Modlarını Anlama",
+      "analytical": {
+        "title": "Analitik Mod",
+        "description": "Mantıklı analiz, finansal hesaplamalar ve risk değerlendirmesi gerektiren veri odaklı kararlar için mükemmel.",
+        "exampleLabel": "Şu tür sorular için en iyi:",
+        "example": "Mevcut finansal durumum ve 10 yıllık hedeflerim göz önünde bulundurulduğunda gayrimenkul mi yoksa hisse senedi mi yatırımı yapmalıyım?"
+      },
+      "emotional": {
+        "title": "Duygusal Mod",
+        "description": "İlişkiler, kişisel değerler ve refahı etkileyen yaşam değişikliklerini içeren kararlar için ideal.",
+        "exampleLabel": "Şu tür sorular için en iyi:",
+        "example": "Ailem ve sosyal bağlantılarımı göz önünde bulundurarak iş fırsatı için başka bir şehre taşınmalı mıyım?"
+      },
+      "creative": {
+        "title": "Yaratıcı Mod",
+        "description": "Yenilikçi çözümler, alışılmadık yaklaşımlar ve çığır açan düşünceleri keşfetmek için harika.",
+        "exampleLabel": "Şu tür sorular için en iyi:",
+        "example": "Hobimi tutkumu koruyarak karlı bir işe nasıl dönüştürebilirim?"
+      }
+    },
+    "tips": {
+      "title": "Daha İyi Sonuçlar İçin İpuçları",
+      "good": {
+        "title": "Bunu Yapın",
+        "specific": "Durumunuz ve kısıtlamalarınız hakkında spesifik olun",
+        "context": "İlgili geçmiş bilgileri sağlayın",
+        "constraints": "Zaman, bütçe veya diğer sınırlamaları belirtin",
+        "goals": "İstediğiniz sonuçları açıkça belirtin"
+      },
+      "avoid": {
+        "title": "Bunu Yapmayın",
+        "vague": "Belirsiz veya aşırı genel sorular",
+        "multiple": "Aynı anda birden fazla ilgisiz soru sormak",
+        "yes_no": "Bağlam olmadan basit evet/hayır soruları",
+        "personal": "Hassas kişisel bilgileri paylaşmak"
+      }
+    },
+    "examples": {
+      "title": "Örnek Sorular",
+      "career": {
+        "category": "Kariyer Kararı",
+        "question": "%30 daha fazla maaş veren ama farklı bir ülkeye taşınmayı gerektiren iş teklifini kabul etmeli miyim?"
+      },
+      "relationship": {
+        "category": "İlişki Kararı",
+        "question": "Finansal durumumuz ve kariyer hedeflerimizi göz önünde bulundurarak partnerime evlenme teklifi etmek için doğru zaman mı?"
+      },
+      "financial": {
+        "category": "Finansal Karar",
+        "question": "Birikimlerimi öğrenci kredilerimi ödemek için mi yoksa emeklilik hesabına yatırım yapmak için mi kullanmalıyım?"
+      },
+      "lifestyle": {
+        "category": "Yaşam Tarzı Kararı",
+        "question": "Eşyalarımın çoğunu satarak ve seyahat ederek minimalist bir yaşam tarzını benimser miyim?"
+      }
+    },
+    "profile": {
+      "title": "Profil Ayarları ve Kişiselleştirme",
+      "description": "Kişisel profilinizi ayarlayarak karar analizi deneyiminizi geliştirin. NexReason bu bilgileri daha alakalı ve kişiselleştirilmiş içgörüler sağlamak için kullanır.",
+      "benefits": {
+        "title": "Profil Kurulumunun Faydaları",
+        "personalized": "Tercihleriniz ve hedeflerinize dayalı kişiselleştirilmiş öneriler alın",
+        "contextual": "Yaşam evrenizi ve koşullarınızı dikkate alan analiz alın",
+        "relevant": "Durumunuza uygun daha alakalı örnekler ve senaryolar",
+        "improved": "Risk değerlendirmesi ve karar rehberliğinde gelişmiş doğruluk"
+      },
+      "setup": {
+        "title": "Profilinizi Nasıl Kuracaksınız",
+        "step1": "Profil Simgesine Tıklayın",
+        "step1Description": "Analiz sayfası başlığındaki profil simgesini bulun ve tıklayın",
+        "step2": "Bilgilerinizi Doldurun",
+        "step2Description": "Yaş, meslek, ilgi alanları, hedefler ve karar verme tarzı gibi detayları ekleyin",
+        "step3": "Kaydedin ve Keyfini Çıkarın",
+        "step3Description": "Profilinizi kaydedin ve kişiselleştirilmiş karar analizi almaya başlayın"
+      },
+      "smartProfiling": {
+        "title": "Akıllı Profilleme Özelliği",
+        "description": "NexReason sorularınızdan otomatik olarak kalıpları tespit edebilir ve deneyiminizi iyileştirmek için profil güncellemeleri önerebilir. Akıllı içgörüler mevcut olduğunda bilgilendirileceksiniz."
+      }
+    },
+    "languages": {
+      "title": "Çok Dilli Destek",
+      "description": "NexReason desteklenen tüm dillerde eşit derecede detaylı analiz sağlar. En iyi deneyim için sorunuzu tercih ettiğiniz dilde sorun."
+    },
+    "cta": "Analizinizi Başlatın"
+  }
+} 
