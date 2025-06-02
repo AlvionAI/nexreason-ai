@@ -1,150 +1,98 @@
-# Alvion AI NexReason Platform
+# NexReason - AI-Powered Decision Analysis
 
-🚀 **Multilingual AI-powered decision analysis platform**
+Transform complex decisions into clear insights with intelligent analysis across multiple thinking frameworks. Powered by Alvion AI.
 
 ## Features
-- 4 languages: English, Turkish, Spanish, Russian
-- 3 analysis modes: Analytical, Emotional, Creative
-- Google Analytics 4 integration
-- Advanced security & performance optimization
 
-## Powered by Alvion AI
+- 🧠 **Multi-Framework Analysis**: Analytical, emotional, and creative thinking approaches
+- 🌍 **Multilingual Support**: English, Turkish, Spanish, Russian
+- 🚀 **AI-Powered**: Google Gemini integration for intelligent insights
+- 🔒 **Secure**: Enterprise-grade security and rate limiting
+- 📱 **Responsive**: Beautiful UI that works on all devices
+- ⚡ **Fast**: Optimized for performance with Next.js 14
 
-Visit: [nexreasonai.com](https://nexreasonai.com)
+## Quick Start
 
-## 🌟 Features
+### Development
 
-- **Multiple Decision Modes**: Analytical, Emotional, and Creative approaches
-- **Multilingual Support**: English, Turkish, Spanish, and Russian
-- **AI-Powered Analysis**: Structured decision insights using Gemini AI
-- **Modern UI**: Dark theme with gradient backgrounds and smooth animations
-- **Responsive Design**: Works perfectly on desktop and mobile devices
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd nexreason
-```
-
-2. Install dependencies
 ```bash
 npm install
-# or
-yarn install
-```
-
-3. Set up environment variables
-```bash
-# Create .env.local file and add your Gemini API key
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-4. Run the development server
-```bash
 npm run dev
-# or
-yarn dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 🌍 Supported Languages
+### Production Deployment
 
-- English (en) - `/en`
-- Turkish (tr) - `/tr` 
-- Spanish (es) - `/es`
-- Russian (ru) - `/ru`
+#### Environment Variables
 
-## 🛠️ Tech Stack
+Set these environment variables in your hosting platform:
 
-- **Framework**: Next.js 14
+**Required:**
+```bash
+GEMINI_API_KEY=your-gemini-api-key-here
+```
+
+**Optional (for monetization and analytics):**
+```bash
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_ADSENSE_CLIENT_ID=ca-pub-xxxxxxxxxxxxxxxx
+```
+
+#### Deploy to Vercel (Recommended)
+
+1. **Fork this repository** or push to your GitHub
+2. **Go to [Vercel](https://vercel.com)**
+3. **Import your repository**
+4. **Add environment variables** in Vercel dashboard
+5. **Deploy!**
+
+#### Deploy to Other Platforms
+
+```bash
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## Technology Stack
+
+- **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
+- **AI**: Google Gemini API
 - **Internationalization**: next-intl
-- **AI Integration**: Google Gemini API
-- **State Management**: React Hooks
+- **Security**: Custom middleware with rate limiting
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 nexreason/
-├── app/
-│   └── [locale]/
-│       ├── layout.tsx
-│       ├── page.tsx
-│       └── analyze/
-│           └── page.tsx
-├── components/
-│   └── Navigation.tsx
-├── lib/
-│   ├── gemini.ts
-│   └── utils.ts
-├── messages/
-│   ├── en/
-│   ├── tr/
-│   ├── es/
-│   └── ru/
-├── i18n/
-│   ├── routing.ts
-│   └── request.ts
-├── types/
-│   └── index.ts
-└── middleware.ts
+├── app/                    # Next.js App Router
+│   ├── [locale]/          # Internationalized routes
+│   ├── api/               # API endpoints
+│   └── layout.tsx         # Root layout
+├── components/            # React components
+├── lib/                   # Utility functions
+├── messages/              # Translation files
+├── i18n/                  # Internationalization config
+└── middleware.ts          # Security middleware
 ```
 
-## 🎨 Design Features
+## Contributing
 
-- Dark mode aesthetic with gradient backgrounds
-- Purple, cyan, and pink color scheme
-- Smooth hover animations and transitions
-- Glassmorphism card designs
-- Responsive grid layouts
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-## 🔧 Configuration
-
-The project uses several configuration files:
-
-- `next.config.js` - Next.js and next-intl configuration
-- `tailwind.config.ts` - Tailwind CSS customization
-- `tsconfig.json` - TypeScript configuration
-- `middleware.ts` - Internationalization routing
-
-## 📝 Usage
-
-1. **Homepage**: Select your decision-making mode (Analytical, Emotional, or Creative)
-2. **Analyze Page**: Enter your decision dilemma and get structured AI analysis
-3. **Language Switching**: Use the language selector in the navigation
-
-## 🤖 AI Integration
-
-The app currently uses mock responses for demonstration. To integrate with actual Gemini API:
-
-1. Get your API key from Google AI Studio
-2. Update the `analyzeDecision` function in `lib/gemini.ts`
-3. Replace mock responses with actual API calls
-
-## 🌐 Deployment
-
-Deploy on Vercel (recommended):
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
+---
 
-Contributions are welcome! Please feel free to submit a Pull Request. 
+**Powered by Alvion AI** ⚡ 

@@ -83,7 +83,7 @@ export default function Navigation() {
           NexReason
         </Link>
         
-        <div className="flex items-center space-x-3 sm:space-x-6">
+        <div className="flex items-center gap-3 sm:gap-6">
           {/* Desktop Navigation */}
           <Link 
             href="/" 
@@ -118,7 +118,7 @@ export default function Navigation() {
           <div className="relative" ref={dropdownRef}>
             {isAnalyzePage ? (
               /* Analiz sayfasında sadece mevcut dili göster */
-              <div className="text-white/80 flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-1 sm:py-2 rounded-lg bg-white/10">
+              <div className="text-white/80 flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-2 rounded-lg bg-white/10">
                 <span className="text-base sm:text-lg flag-emoji">{currentLanguage.flag}</span>
                 <span className="text-xs sm:text-sm hidden sm:block">{currentLanguage.name}</span>
               </div>
@@ -129,7 +129,7 @@ export default function Navigation() {
                   onClick={() => {
                     setIsDropdownOpen(!isDropdownOpen);
                   }}
-                  className="text-white/80 hover:text-white transition-colors flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-1 sm:py-2 rounded-lg hover:bg-white/10 focus:outline-none relative z-20"
+                  className="text-white/80 hover:text-white transition-colors flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-2 rounded-lg hover:bg-white/10 focus:outline-none relative z-20"
                 >
                   <span className="text-base sm:text-lg flag-emoji">{currentLanguage.flag}</span>
                   <span className="text-sm sm:text-base hidden sm:block">{currentLanguage.name}</span>
@@ -143,18 +143,18 @@ export default function Navigation() {
                   </svg>
                 </button>
                 
-                {/* Dropdown Menü */}
+                {/* Dropdown Menü - Fixed with proper Tailwind classes */}
                 {isDropdownOpen && (
                   <div 
                     className="absolute right-0 top-full mt-2 w-40 sm:w-48 opacity-100 visible transform translate-y-0 z-[110]"
                     style={{ zIndex: 110 }}
                   >
-                    <div className="gradient-card rounded-lg border border-white/20 shadow-xl overflow-hidden">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 shadow-xl overflow-hidden">
                       {languages.map((lang) => (
                         <button
                           key={lang.code}
                           onClick={() => handleLanguageChange(lang.code)}
-                          className={`w-full text-left px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm transition-colors flex items-center space-x-2 sm:space-x-3 hover:bg-white/10 cursor-pointer ${
+                          className={`w-full text-left px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm transition-colors flex items-center gap-2 sm:gap-3 hover:bg-white/10 cursor-pointer ${
                             locale === lang.code 
                               ? 'bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-white border-l-2 border-purple-400' 
                               : 'text-white/80 hover:text-white'
@@ -184,7 +184,7 @@ export default function Navigation() {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="sm:hidden border-t border-white/10 bg-slate-900/95 backdrop-blur-sm">
-          <div className="px-4 py-3 space-y-2">
+          <div className="px-4 py-3 gap-2">
             <Link 
               href="/" 
               className="block text-white/80 hover:text-white transition-colors py-2"

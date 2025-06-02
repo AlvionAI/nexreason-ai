@@ -28,29 +28,23 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen relative overflow-hidden pt-20">
-      {/* Animated Background Elements */}
+      {/* Simplified Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Neural Network Lines */}
-        <div className="absolute top-20 left-10 w-4 h-4 bg-cyan-400 rounded-full animate-pulse opacity-70 floating-element">
+        {/* Simple geometric elements without complex animations */}
+        <div className="absolute top-20 left-10 w-4 h-4 bg-cyan-400 rounded-full animate-pulse opacity-70">
           <div className="absolute top-1/2 left-1/2 w-32 h-px bg-gradient-to-r from-cyan-400/50 to-transparent transform -translate-y-1/2 rotate-45"></div>
         </div>
         <div className="absolute top-40 right-20 w-2 h-2 bg-pink-400 rounded-full animate-ping opacity-60"></div>
-        <div className="absolute bottom-40 left-20 w-3 h-3 bg-purple-400 rounded-full animate-pulse opacity-50 floating-element" style={{ animationDelay: '2s' }}>
+        <div className="absolute bottom-40 left-20 w-3 h-3 bg-purple-400 rounded-full animate-pulse opacity-50">
           <div className="absolute top-1/2 left-1/2 w-24 h-px bg-gradient-to-l from-purple-400/40 to-transparent transform -translate-y-1/2 -rotate-45"></div>
         </div>
-        <div className="absolute bottom-20 right-40 w-2 h-2 bg-cyan-300 rounded-full animate-ping opacity-70" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-20 right-40 w-2 h-2 bg-cyan-300 rounded-full animate-ping opacity-70"></div>
         <div className="absolute top-60 left-1/4 w-1 h-1 bg-pink-300 rounded-full animate-pulse opacity-80"></div>
-        <div className="absolute top-80 right-1/3 w-2 h-2 bg-purple-300 rounded-full animate-ping opacity-60" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-80 right-1/3 w-2 h-2 bg-purple-300 rounded-full animate-ping opacity-60"></div>
         
         {/* AI Brain Connections */}
-        <div className="absolute top-1/4 left-1/3 w-1 h-20 bg-gradient-to-b from-cyan-400/30 to-transparent animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-        <div className="absolute bottom-1/4 right-1/4 w-1 h-16 bg-gradient-to-t from-pink-400/30 to-transparent animate-pulse" style={{ animationDelay: '2.5s' }}></div>
-        
-        {/* Floating AI Elements */}
-        <div className="sparkle sparkle-1">🤖</div>
-        <div className="sparkle sparkle-2">⚡</div>
-        <div className="sparkle sparkle-3">🧠</div>
-        <div className="sparkle sparkle-4">✨</div>
+        <div className="absolute top-1/4 left-1/3 w-1 h-20 bg-gradient-to-b from-cyan-400/30 to-transparent animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-1 h-16 bg-gradient-to-t from-pink-400/30 to-transparent animate-pulse"></div>
       </div>
 
       <div className="flex items-center justify-center min-h-[calc(100vh-5rem)] p-4 sm:p-6 relative z-10">
@@ -103,8 +97,8 @@ export default function HomePage() {
                 {/* Card Glow Background */}
                 <div className={`absolute inset-0 bg-gradient-to-r ${mode.gradient} rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300`}></div>
                 
-                {/* Card Content */}
-                <div className={`relative bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 sm:p-8 h-full transition-all duration-300 hover:scale-105 hover:bg-white/15 ${mode.glowColor} hover:shadow-2xl cursor-pointer enhanced-card`}>
+                {/* Card Content - Simplified without enhanced-card class */}
+                <div className={`relative bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 sm:p-8 h-full transition-all duration-300 hover:scale-105 hover:bg-white/15 ${mode.glowColor} hover:shadow-2xl cursor-pointer`}>
                   {/* Icon with AI Glow */}
                   <div className="relative text-5xl sm:text-6xl lg:text-7xl mb-4 sm:mb-6 transform group-hover:scale-110 transition-transform duration-300">
                     <div className="absolute inset-0 blur-lg opacity-50 group-hover:opacity-70 transition-opacity duration-300">
@@ -140,11 +134,11 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* Get Started Button */}
-          <div className="animate-bounce-gentle px-4 sm:px-0">
+          {/* Get Started Button - Simplified */}
+          <div className="px-4 sm:px-0">
             <Link
               href="/analyze"
-              className="inline-flex items-center px-8 sm:px-12 py-4 sm:py-5 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-white text-lg sm:text-xl font-bold rounded-full hover:scale-110 transition-all duration-300 shadow-2xl shadow-purple-500/30 hover:shadow-purple-500/50 group glow-button"
+              className="inline-flex items-center px-8 sm:px-12 py-4 sm:py-5 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-white text-lg sm:text-xl font-bold rounded-full hover:scale-110 transition-all duration-300 shadow-2xl shadow-purple-500/30 hover:shadow-purple-500/50 group"
             >
               <span>{t('getStartedMain')}</span>
               <svg className="ml-2 sm:ml-3 w-5 h-5 sm:w-6 sm:h-6 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

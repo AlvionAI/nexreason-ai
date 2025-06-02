@@ -221,10 +221,7 @@ export function generateCSPHeader(): string {
  * Security headers for responses
  */
 export function getSecurityHeaders(): Record<string, string> {
-  return {
-    // Content Security Policy
-    'Content-Security-Policy': generateCSPHeader(),
-    
+  const headers: Record<string, string> = {
     // Prevent MIME type sniffing
     'X-Content-Type-Options': 'nosniff',
     
@@ -239,12 +236,15 @@ export function getSecurityHeaders(): Record<string, string> {
     
     // Permissions Policy
     'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
-    
-    // HSTS (only in production with HTTPS)
-    ...(process.env.NODE_ENV === 'production' && {
-      'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload'
-    }),
   };
+
+  // Only add CSP and HSTS in production for easier development
+  if (process.env.NODE_ENV === 'production') {
+    headers['Content-Security-Policy'] = generateCSPHeader();
+    headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains; preload';
+  }
+
+  return headers;
 }
 
 /**

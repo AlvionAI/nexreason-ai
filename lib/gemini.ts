@@ -138,13 +138,12 @@ export async function analyzeDecision(
   locale: Locale,
   personalizationContext?: PersonalizationContext
 ): Promise<DecisionAnalysis> {
-  // Detect the language of the question first
-  const detectedLanguage = detectLanguage(question);
-  console.log(`🌍 Question language detected: ${detectedLanguage} for question: "${question}"`);
+  // Use the provided locale instead of detecting language from question
+  console.log(`🌍 Using provided locale: ${locale} for question: "${question}"`);
   
-  // Detect decision category for enhanced context
-  const detectedCategory = detectDecisionCategory(question, detectedLanguage);
-  const categoryName = getCategoryName(detectedCategory, detectedLanguage);
+  // Detect decision category for enhanced context (use locale instead of detected language)
+  const detectedCategory = detectDecisionCategory(question, locale);
+  const categoryName = getCategoryName(detectedCategory, locale);
   console.log(`🎯 Decision category detected: ${detectedCategory} (${categoryName}) for question: "${question}"`);
   
   // ENHANCED API Key debugging
@@ -175,7 +174,7 @@ export async function analyzeDecision(
     console.log(`🤖 Using model: ${modelName}`);
     
     const model = genAI.getGenerativeModel({ model: modelName });
-    const prompt = generateProfessionalPrompt(question, mode, detectedLanguage, timestamp, personalizationContext);
+    const prompt = generateProfessionalPrompt(question, mode, locale, timestamp, personalizationContext);
     
     console.log('🚀 Sending prompt to AI (length:', prompt.length, 'chars)');
     console.log('📝 Prompt preview:', prompt.substring(0, 500) + '...');
@@ -188,15 +187,15 @@ export async function analyzeDecision(
     console.log('📄 Response preview:', text.substring(0, 500) + '...');
     
     // NEW: Validate response language before processing
-    const isCorrectLanguage = validateResponseLanguage(text, detectedLanguage);
+    const isCorrectLanguage = validateResponseLanguage(text, locale);
     if (!isCorrectLanguage) {
-      console.warn(`⚠️ Language mismatch detected! Expected: ${detectedLanguage}, but response appears to be in different language.`);
+      console.warn(`⚠️ Language mismatch detected! Expected: ${locale}, but response appears to be in different language.`);
       console.warn(`📄 Problematic response: ${text.substring(0, 200)}...`);
       console.log('🔄 Using fallback response due to language mismatch');
-      return createFallbackResponse(question, mode, detectedLanguage, detectedCategory);
+      return createFallbackResponse(question, mode, locale, detectedCategory);
     }
     
-    console.log(`✅ Language validation passed for ${detectedLanguage}`);
+    console.log(`✅ Language validation passed for ${locale}`);
     
     // Clean the response (remove markdown formatting if present)
     let cleanText = text.trim();
@@ -232,7 +231,7 @@ export async function analyzeDecision(
       let languageValidationFailed = false;
       fieldsToValidate.forEach((field, index) => {
         if (typeof field === 'string' && field.length > 10) {
-          const fieldLanguageValid = validateResponseLanguage(field, detectedLanguage);
+          const fieldLanguageValid = validateResponseLanguage(field, locale);
           if (!fieldLanguageValid) {
             console.warn(`⚠️ Field ${index} language validation failed: "${field.substring(0, 50)}..."`);
             languageValidationFailed = true;
@@ -242,7 +241,7 @@ export async function analyzeDecision(
       
       if (languageValidationFailed) {
         console.warn('🔄 Some fields failed language validation, using fallback response');
-        return createFallbackResponse(question, mode, detectedLanguage, detectedCategory);
+        return createFallbackResponse(question, mode, locale, detectedCategory);
       }
       
       console.log('📊 Analysis preview:', {
@@ -259,7 +258,7 @@ export async function analyzeDecision(
       console.error('❌ Failed to parse AI response as JSON:', parseError);
       console.log('📄 Clean text that failed to parse:', cleanText);
       // If parsing fails, return a structured fallback
-      return createFallbackResponse(question, mode, detectedLanguage, detectedCategory);
+      return createFallbackResponse(question, mode, locale, detectedCategory);
     }
   } catch (error) {
     console.error('❌ Primary Google Generative AI error:', error);
@@ -277,7 +276,7 @@ export async function analyzeDecision(
       try {
         console.log(`🔄 Trying model: ${modelName}`);
         const model = genAI.getGenerativeModel({ model: modelName });
-        const prompt = generateProfessionalPrompt(question, mode, detectedLanguage, timestamp, personalizationContext);
+        const prompt = generateProfessionalPrompt(question, mode, locale, timestamp, personalizationContext);
         
         const result = await model.generateContent(prompt);
         const response = await result.response;
@@ -286,7 +285,7 @@ export async function analyzeDecision(
         console.log(`✅ ${modelName} worked! Response length:`, text.length);
         
         // NEW: Validate language for fallback models too
-        const isCorrectLanguage = validateResponseLanguage(text, detectedLanguage);
+        const isCorrectLanguage = validateResponseLanguage(text, locale);
         if (!isCorrectLanguage) {
           console.warn(`⚠️ Fallback model ${modelName} also returned wrong language`);
           continue;
@@ -318,12 +317,12 @@ export async function analyzeDecision(
     
     // If all models fail, return ultra-premium fallback response
     console.warn('⚠️ All Google Generative AI models failed, using ultra-premium fallback response');
-    return createUltraPremiumMockResponse(mode, question, detectedLanguage, detectedCategory, personalizationContext);
+    return createUltraPremiumMockResponse(mode, question, locale, detectedCategory, personalizationContext);
   }
 }
 
-function createMockResponse(mode: DecisionMode, question: string, detectedLanguage: Locale, detectedCategory?: DecisionCategory): DecisionAnalysis {
-  console.log('🎭 Using ULTRA-PREMIUM mock response for question:', question, 'in language:', detectedLanguage);
+function createMockResponse(mode: DecisionMode, question: string, locale: Locale, detectedCategory?: DecisionCategory): DecisionAnalysis {
+  console.log('🎭 Using ULTRA-PREMIUM mock response for question:', question, 'in language:', locale);
   
   // Dubai-specific ultra-premium contextual responses
   const isDubaiQuestion = question.toLowerCase().includes('dubai');
@@ -400,7 +399,7 @@ function createMockResponse(mode: DecisionMode, question: string, detectedLangua
       }
     };
 
-    const responses = dubaiUltraPremiumResponses[detectedLanguage] || dubaiUltraPremiumResponses.en;
+    const responses = dubaiUltraPremiumResponses[locale] || dubaiUltraPremiumResponses.en;
     
     const dubaiAnalysis: Record<Locale, {emotional_reasoning: string, logical_reasoning: string, suggestion: string, summary: string}> = {
       en: {
@@ -429,7 +428,7 @@ function createMockResponse(mode: DecisionMode, question: string, detectedLangua
       }
     };
 
-    const analysis = dubaiAnalysis[detectedLanguage] || dubaiAnalysis.en;
+    const analysis = dubaiAnalysis[locale] || dubaiAnalysis.en;
     
     return {
       pros: responses.pros,
@@ -443,11 +442,11 @@ function createMockResponse(mode: DecisionMode, question: string, detectedLangua
   }
 
   // For non-Dubai questions, use ultra-premium system
-  return createUltraPremiumMockResponse(mode, question, detectedLanguage);
+  return createUltraPremiumMockResponse(mode, question, locale);
 }
 
-function createFallbackResponse(question: string, mode: DecisionMode, detectedLanguage: Locale, detectedCategory?: DecisionCategory): DecisionAnalysis {
-  console.log('🔄 Creating fallback response for:', question, 'in language:', detectedLanguage);
+function createFallbackResponse(question: string, mode: DecisionMode, locale: Locale, detectedCategory?: DecisionCategory): DecisionAnalysis {
+  console.log('🔄 Creating fallback response for:', question, 'in language:', locale);
   
   const fallbackTexts = {
     en: {
@@ -536,7 +535,7 @@ function createFallbackResponse(question: string, mode: DecisionMode, detectedLa
     }
   };
 
-  const texts = fallbackTexts[detectedLanguage] || fallbackTexts.en;
+  const texts = fallbackTexts[locale] || fallbackTexts.en;
   
   return {
     pros: texts.pros,
@@ -794,8 +793,8 @@ function generatePersonalizedContent(
   };
 }
 
-function createUltraPremiumMockResponse(mode: DecisionMode, question: string, detectedLanguage: Locale, detectedCategory?: DecisionCategory, personalizationContext?: PersonalizationContext): DecisionAnalysis {
-  console.log('🎭🔥 Using ULTRA-PREMIUM mock response for question:', question, 'in language:', detectedLanguage);
+function createUltraPremiumMockResponse(mode: DecisionMode, question: string, locale: Locale, detectedCategory?: DecisionCategory, personalizationContext?: PersonalizationContext): DecisionAnalysis {
+  console.log('🎭🔥 Using ULTRA-PREMIUM mock response for question:', question, 'in language:', locale);
   
   // Kişiselleştirme bilgilerini logla
   if (personalizationContext?.userProfile) {
@@ -812,7 +811,7 @@ function createUltraPremiumMockResponse(mode: DecisionMode, question: string, de
   
   if (isDubaiQuestion) {
     // Return existing Dubai responses (already ultra-premium)
-    return createMockResponse(mode, question, detectedLanguage, detectedCategory);
+    return createMockResponse(mode, question, locale, detectedCategory);
   }
 
   // **NEW: UNIVERSAL ULTRA-PREMIUM SYSTEM FOR ALL QUESTIONS**
@@ -1007,7 +1006,7 @@ function createUltraPremiumMockResponse(mode: DecisionMode, question: string, de
   };
 
   // Get context-specific responses
-  const responses = ultraPremiumResponses[detectedLanguage]?.[context] || ultraPremiumResponses[detectedLanguage]?.general || ultraPremiumResponses.en.general;
+  const responses = ultraPremiumResponses[locale]?.[context] || ultraPremiumResponses[locale]?.general || ultraPremiumResponses.en.general;
   
   // Generate expert analysis based on mode and context
   const expertAnalysis: Record<Locale, Record<string, {emotional_reasoning: string, logical_reasoning: string, suggestion: string, summary: string}>> = {
@@ -1273,7 +1272,7 @@ function createUltraPremiumMockResponse(mode: DecisionMode, question: string, de
     }
   };
 
-  const analysis = expertAnalysis[detectedLanguage]?.[context] || expertAnalysis[detectedLanguage]?.general || expertAnalysis.en.general;
+  const analysis = expertAnalysis[locale]?.[context] || expertAnalysis[locale]?.general || expertAnalysis.en.general;
   
   // Kişiselleştirme skorunu hesapla
   let personalizationScore = 0;
@@ -1309,7 +1308,7 @@ function createUltraPremiumMockResponse(mode: DecisionMode, question: string, de
       question, 
       profile, 
       context, 
-      detectedLanguage, 
+      locale, 
       responses, 
       analysis
     );

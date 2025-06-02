@@ -9,10 +9,17 @@ const nextConfig = {
   
   experimental: {
     typedRoutes: true,
+    // optimizeCss: true // Removed - causing build errors
   },
   
-  // Security headers
+  // Security headers - COMPLETELY DISABLED in development
   async headers() {
+    // NO security headers in development for easier debugging
+    if (process.env.NODE_ENV === 'development') {
+      return [];
+    }
+    
+    // Only apply security headers in production
     return [
       {
         source: '/(.*)',
@@ -37,11 +44,24 @@ const nextConfig = {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=()'
           },
-          // HSTS only in production
-          ...(process.env.NODE_ENV === 'production' ? [{
+          {
+            key: 'Content-Security-Policy',
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://pagead2.googlesyndication.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com",
+              "img-src 'self' data: https:",
+              "connect-src 'self' https://generativelanguage.googleapis.com https://www.google-analytics.com",
+              "frame-ancestors 'none'",
+              "base-uri 'self'",
+              "form-action 'self'"
+            ].join('; ')
+          },
+          {
             key: 'Strict-Transport-Security',
             value: 'max-age=31536000; includeSubDomains; preload'
-          }] : []),
+          },
         ],
       },
       {
@@ -81,12 +101,28 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
   
-  // Image optimization security
+  // Remove restrictive image CSP for now
   images: {
     domains: [],
     dangerouslyAllowSVG: false,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production"
+  },
+
+  // Optimize CSS loading
+  webpack: (config, { dev, isServer }) => {
+    if (!dev && !isServer) {
+      config.optimization.splitChunks.cacheGroups.styles = {
+        name: 'styles',
+        test: /\.(css|scss)$/,
+        chunks: 'all',
+        enforce: true,
+      };
+    }
+    return config;
+  }
 };
 
 module.exports = withNextIntl(nextConfig); 
