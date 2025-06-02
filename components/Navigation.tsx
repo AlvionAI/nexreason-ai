@@ -119,7 +119,7 @@ export default function Navigation() {
             {isAnalyzePage ? (
               /* Analiz sayfasında sadece mevcut dili göster */
               <div className="text-white/80 flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-1 sm:py-2 rounded-lg bg-white/10">
-                <span className="text-base sm:text-lg">{currentLanguage.flag}</span>
+                <span className="text-base sm:text-lg flag-emoji">{currentLanguage.flag}</span>
                 <span className="text-xs sm:text-sm hidden sm:block">{currentLanguage.name}</span>
               </div>
             ) : (
@@ -131,7 +131,7 @@ export default function Navigation() {
                   }}
                   className="text-white/80 hover:text-white transition-colors flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-1 sm:py-2 rounded-lg hover:bg-white/10 focus:outline-none relative z-20"
                 >
-                  <span className="text-base sm:text-lg">{currentLanguage.flag}</span>
+                  <span className="text-base sm:text-lg flag-emoji">{currentLanguage.flag}</span>
                   <span className="text-sm sm:text-base hidden sm:block">{currentLanguage.name}</span>
                   <svg 
                     className={`w-3 h-3 sm:w-4 sm:h-4 transform transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} 
@@ -161,7 +161,7 @@ export default function Navigation() {
                           }`}
                           type="button"
                         >
-                          <span className="text-base sm:text-lg">{lang.flag}</span>
+                          <span className="text-base sm:text-lg flag-emoji">{lang.flag}</span>
                           <span className="text-xs sm:text-sm">{lang.name}</span>
                           {locale === lang.code && (
                             <span className="ml-auto text-purple-400">
