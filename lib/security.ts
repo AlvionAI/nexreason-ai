@@ -20,11 +20,11 @@ export const SECURITY_CONFIG = {
   // Content Security Policy
   CSP_DIRECTIVES: {
     'default-src': ["'self'"],
-    'script-src': ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
-    'style-src': ["'self'", "'unsafe-inline'"],
-    'img-src': ["'self'", "data:", "https:"],
-    'font-src': ["'self'"],
-    'connect-src': ["'self'", "https://generativelanguage.googleapis.com"],
+    'script-src': ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://www.googletagmanager.com", "https://pagead2.googlesyndication.com"],
+    'style-src': ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+    'img-src': ["'self'", "data:", "https:", "http:"],
+    'font-src': ["'self'", "https://fonts.gstatic.com"],
+    'connect-src': ["'self'", "https://generativelanguage.googleapis.com", "https://www.google-analytics.com", "https://www.googletagmanager.com"],
     'frame-ancestors': ["'none'"],
     'base-uri': ["'self'"],
     'form-action': ["'self'"],
