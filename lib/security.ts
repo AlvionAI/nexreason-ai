@@ -7,7 +7,7 @@ export const SECURITY_CONFIG = {
   RATE_LIMIT: {
     WINDOW_MS: 15 * 60 * 1000, // 15 minutes
     MAX_REQUESTS: 100, // requests per window
-    API_MAX_REQUESTS: 20, // API requests per window
+    API_MAX_REQUESTS: process.env.NODE_ENV === 'development' ? 200 : 20, // More requests in development for testing
   },
   
   // Input validation
