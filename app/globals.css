@@ -18,24 +18,17 @@ html {
   min-height: 100vh;
   min-height: 100dvh; /* Dynamic viewport height for mobile */
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
 }
 
 body {
   color: hsl(var(--foreground));
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   /* Enhanced font stack with emoji support for Windows */
   font-family: 'Inter', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', 'Android Emoji', 'EmojiSymbols', 'EmojiOne Color', 'Twemoji Mozilla', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   min-height: 100vh;
   min-height: 100dvh; /* Dynamic viewport height for mobile */
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  position: relative;
 }
 
 /* Emoji specific styling for better cross-platform support */
@@ -52,7 +45,7 @@ main {
   min-height: 100dvh;
 }
 
-/* Fix container heights */
+/* Fix container heights and viewport issues */
 .min-h-screen {
   min-height: 100vh;
   min-height: 100dvh;
@@ -356,4 +349,22 @@ main {
   .glow-button::before {
     display: none;
   }
+}
+
+/* Better body background coverage */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  z-index: -1;
+}
+
+/* Ensure page content always covers viewport */
+#__next {
+  min-height: 100vh;
+  min-height: 100dvh;
 } 
