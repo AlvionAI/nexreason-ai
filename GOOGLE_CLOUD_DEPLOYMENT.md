@@ -169,9 +169,9 @@ gcloud run deploy nexreason \
 ```bash
 # Map custom domain
 gcloud run domain-mappings create \
-  --service nexreason \
-  --domain nexreason.com \
-  --region us-central1
+  --service nexreason-ai \
+  --domain nexreasonai.com \
+  --region europe-west3
 ```
 
 ---

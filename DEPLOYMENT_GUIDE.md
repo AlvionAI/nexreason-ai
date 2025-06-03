@@ -98,7 +98,7 @@ NEXT_PUBLIC_APP_URL=https://your-domain.com
 
 ### 3. **Domain Configuration**
 
-1. **Purchase Domain**: Consider `nexreason.com` or similar
+1. **Purchase Domain**: Consider `nexreasonai.com` or similar
 2. **SSL Certificate**: Ensure HTTPS is enabled
 3. **DNS Setup**: Point domain to your hosting platform
 4. **Update Canonical URLs**: Update the canonical URL in `layout.tsx`

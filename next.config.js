@@ -81,15 +81,8 @@ const nextConfig = {
     if (process.env.NODE_ENV === 'production') {
       return [
         {
-          source: '/(.*)',
-          has: [
-            {
-              type: 'header',
-              key: 'x-forwarded-proto',
-              value: 'http',
-            },
-          ],
-          destination: 'https://nexreason.com/:path*',
+          source: '/nexreason.com/:path*',
+          destination: 'https://nexreasonai.com/:path*',
           permanent: true,
         },
       ];

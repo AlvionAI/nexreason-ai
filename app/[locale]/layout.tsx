@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { Link } from '@/i18n/routing';
 import Navigation from '@/components/Navigation';
 import Analytics, { PerformanceTracker } from '@/components/Analytics';
 import Script from 'next/script';
@@ -89,8 +90,25 @@ export default async function LocaleLayout({
         <Navigation />
         <main>{children}</main>
         <footer className="border-t border-white/10 bg-slate-900/90 backdrop-blur-sm">
-          <div className="max-w-6xl mx-auto px-4 py-6">
-            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="max-w-6xl mx-auto px-4 py-8">
+            {/* Legal Links */}
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-6">
+              <Link href="/privacy" className="text-white/60 hover:text-white transition-colors text-sm">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="text-white/60 hover:text-white transition-colors text-sm">
+                Terms of Service
+              </Link>
+              <Link href="/about" className="text-white/60 hover:text-white transition-colors text-sm">
+                About Us
+              </Link>
+              <Link href="/contact" className="text-white/60 hover:text-white transition-colors text-sm">
+                Contact Us
+              </Link>
+            </div>
+            
+            {/* Footer Bottom */}
+            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 border-t border-white/5 pt-6">
               <div className="text-white/60 text-sm">
                 © 2025 NexReason. All rights reserved.
               </div>

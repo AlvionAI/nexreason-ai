@@ -275,5 +275,236 @@
       "senior": "Senior",
       "retired": "Jubilado"
     }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "backToHome": "← Volver al Inicio",
+    "lastUpdated": "Última Actualización",
+    "overview": {
+      "title": "Descripción General",
+      "content": "En NexReason, estamos comprometidos a proteger su privacidad y garantizar la transparencia sobre cómo recopilamos, usamos y protegemos su información personal. Esta Política de Privacidad explica nuestras prácticas con respecto a los datos que recopilamos cuando utiliza nuestra plataforma de análisis de decisiones impulsada por IA."
+    },
+    "dataCollection": {
+      "title": "Información que Recopilamos",
+      "intro": "Recopilamos los siguientes tipos de información para proporcionar y mejorar nuestros servicios:",
+      "items": {
+        "personal": "Información Personal: Nombre, dirección de correo electrónico e información de contacto cuando crea una cuenta o se comunica con nosotros.",
+        "usage": "Datos de Uso: Información sobre cómo utiliza nuestra plataforma, incluidas consultas de decisiones, preferencias de análisis y patrones de interacción.",
+        "device": "Información del Dispositivo: Dirección IP, tipo de navegador, sistema operativo e identificadores de dispositivo para fines de seguridad y análisis.",
+        "cookies": "Cookies y Seguimiento: Utilizamos cookies y tecnologías similares para mejorar su experiencia y recopilar datos analíticos."
+      }
+    },
+    "dataUsage": {
+      "title": "Cómo Utilizamos Su Información",
+      "items": {
+        "service": "Proporcionar nuestros servicios de análisis de decisiones impulsados por IA y recomendaciones personalizadas.",
+        "improve": "Mejorar nuestros algoritmos, experiencia del usuario y desarrollar nuevas características.",
+        "support": "Proporcionar atención al cliente y responder a sus consultas.",
+        "analytics": "Realizar análisis e investigación para comprender mejor el comportamiento y las preferencias del usuario.",
+        "advertising": "Mostrar anuncios relevantes a través de Google AdSense y otros socios publicitarios."
+      }
+    },
+    "thirdParty": {
+      "title": "Servicios de Terceros",
+      "intro": "Trabajamos con servicios de terceros confiables para mejorar nuestra plataforma:",
+      "google": {
+        "analytics": "Utilizado para análisis del sitio web y perspectivas del comportamiento del usuario para mejorar nuestros servicios.",
+        "adsense": "Muestra anuncios relevantes para apoyar nuestro servicio gratuito. AdSense puede usar cookies para mostrar anuncios basados en sus intereses.",
+        "ai": "Proporciona las capacidades de inteligencia artificial que impulsan nuestras características de análisis de decisiones."
+      }
+    },
+    "cookies": {
+      "title": "Cookies y Seguimiento",
+      "content": "Utilizamos cookies para mejorar su experiencia, recordar sus preferencias y analizar el tráfico del sitio web. Puede controlar la configuración de cookies a través de su navegador, pero algunas características pueden no funcionar correctamente si las cookies están deshabilitadas."
+    },
+    "userRights": {
+      "title": "Sus Derechos y Opciones",
+      "items": {
+        "access": "Acceder y revisar la información personal que tenemos sobre usted.",
+        "correct": "Solicitar correcciones a cualquier información inexacta o incompleta.",
+        "delete": "Solicitar la eliminación de su información personal, sujeto a requisitos legales.",
+        "restrict": "Solicitar la restricción del procesamiento de su información personal en ciertas circunstancias.",
+        "portability": "Solicitar una copia de su información personal en un formato portátil."
+      }
+    },
+    "security": {
+      "title": "Seguridad de Datos",
+      "content": "Implementamos medidas técnicas y organizacionales apropiadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ninguna transmisión por internet es 100% segura, y no podemos garantizar seguridad absoluta."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "content": "Si tiene alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, por favor contáctenos:",
+      "email": "Correo electrónico:",
+      "address": "Dirección:",
+      "addressValue": "Financial Center Road, Downtown Dubai"
+    }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "backToHome": "← Volver al Inicio",
+    "lastUpdated": "Última Actualización",
+    "acceptance": {
+      "title": "Aceptación de Términos",
+      "content": "Al acceder y usar NexReason, acepta y está de acuerdo en estar sujeto a los términos y disposiciones de este acuerdo. Si no está de acuerdo en cumplir con lo anterior, por favor no use este servicio."
+    },
+    "description": {
+      "title": "Descripción del Servicio",
+      "content": "NexReason es una plataforma de análisis de decisiones impulsada por IA que proporciona insights y recomendaciones para ayudar a los usuarios a tomar decisiones informadas. Nuestro servicio utiliza inteligencia artificial para analizar escenarios de decisión a través de marcos de pensamiento analítico, emocional y creativo."
+    },
+    "usage": {
+      "title": "Uso Aceptable",
+      "intro": "Acepta usar NexReason de manera responsable y de acuerdo con estas pautas:",
+      "rules": {
+        "lawful": "Use el servicio solo para fines legales y de acuerdo con las leyes y regulaciones aplicables.",
+        "personal": "Use el servicio solo para fines personales, educativos o comerciales legítimos.",
+        "noAbuse": "No abuse, acose, amenace o intimide a otros usuarios o nuestro personal.",
+        "noHarm": "No use el servicio para promover actividades dañinas, ilegales o poco éticas.",
+        "respectRights": "Respete los derechos de propiedad intelectual de NexReason y terceros."
+      }
+    },
+    "prohibited": {
+      "title": "Actividades Prohibidas",
+      "items": {
+        "illegal": "Usar el servicio para cualquier actividad ilegal o para violar cualquier ley o regulación.",
+        "harmful": "Enviar contenido que sea dañino, amenazante, abusivo o que promueva violencia.",
+        "spam": "Enviar spam, comunicaciones no solicitadas o solicitudes excesivas a nuestro sistema.",
+        "infringe": "Infringir derechos de propiedad intelectual o violar derechos de privacidad de otros.",
+        "malware": "Introducir virus, malware u otro código dañino a nuestra plataforma.",
+        "impersonate": "Hacerse pasar por otros o proporcionar información falsa sobre su identidad."
+      }
+    },
+    "intellectualProperty": {
+      "title": "Propiedad Intelectual",
+      "content": "Todo el contenido, características y funcionalidades de NexReason, incluyendo pero no limitado a texto, gráficos, logos, iconos, imágenes y software, son propiedad exclusiva de NexReason y están protegidos por copyright, marca registrada y otras leyes de propiedad intelectual."
+    },
+    "userContent": {
+      "title": "Contenido del Usuario",
+      "content": "Usted mantiene la propiedad del contenido que envía a NexReason. Sin embargo, al enviar contenido, nos otorga una licencia no exclusiva, mundial y libre de regalías para usar, modificar y mostrar su contenido únicamente con el propósito de proporcionar nuestros servicios y mejorar nuestros algoritmos de IA."
+    },
+    "disclaimer": {
+      "title": "Descargo de Responsabilidad del Servicio",
+      "content": "NexReason proporciona insights y recomendaciones generados por IA solo con fines informativos. Nuestro análisis no debe considerarse como consejo profesional para asuntos legales, financieros, médicos u otros especializados. Los usuarios son responsables de sus propias decisiones y deben consultar profesionales calificados cuando sea apropiado.",
+      "aiWarning": "Importante: El contenido generado por IA puede contener errores o sesgos. Siempre use pensamiento crítico y considere múltiples fuentes antes de tomar decisiones importantes."
+    },
+    "limitation": {
+      "title": "Limitación de Responsabilidad",
+      "content": "En la máxima medida permitida por la ley, NexReason no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo, o cualquier pérdida de ganancias o ingresos, ya sea incurrida directa o indirectamente, o cualquier pérdida de datos, uso, buena voluntad u otras pérdidas intangibles resultantes de su uso de nuestro servicio."
+    },
+    "termination": {
+      "title": "Terminación",
+      "content": "Podemos terminar o suspender su acceso a nuestro servicio inmediatamente, sin aviso previo o responsabilidad, por cualquier razón, incluyendo sin limitación si viola los Términos de Servicio."
+    },
+    "governing": {
+      "title": "Ley Aplicable",
+      "content": "Estos Términos serán interpretados y regidos por las leyes de la jurisdicción en la que opera NexReason, sin consideración a sus disposiciones de conflicto de leyes."
+    },
+    "changes": {
+      "title": "Cambios a los Términos",
+      "content": "Nos reservamos el derecho de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es material, trataremos de proporcionar al menos 30 días de aviso antes de que cualquier nuevo término entre en vigencia."
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "content": "Si tiene alguna pregunta sobre estos Términos de Servicio, por favor contáctenos:",
+      "email": "Email:",
+      "address": "Dirección:",
+      "addressValue": "Financial Center Road, Downtown Dubai"
+    }
+  },
+  "about": {
+    "title": "Acerca de NexReason",
+    "subtitle": "Potenciando mejores decisiones a través de inteligencia artificial",
+    "backToHome": "← Volver al Inicio",
+    "mission": {
+      "title": "Nuestra Misión",
+      "content": "En NexReason, creemos que cada decisión importa. Nuestra misión es democratizar el acceso a herramientas inteligentes de toma de decisiones combinando inteligencia artificial de vanguardia con sabiduría humana. Empoderamos a individuos y organizaciones para tomar mejores decisiones a través de análisis integral que considera lógica, emoción y creatividad."
+    },
+    "whatWeDo": {
+      "title": "Lo Que Hacemos",
+      "intro": "NexReason es una plataforma de análisis de decisiones impulsada por IA que transforma decisiones complejas en perspectivas claras y accionables. Nuestros algoritmos avanzados analizan sus decisiones a través de múltiples marcos de pensamiento:",
+      "features": {
+        "analytical": {
+          "title": "Pensamiento Analítico",
+          "description": "Análisis basado en datos con razonamiento lógico y evaluación de riesgos."
+        },
+        "emotional": {
+          "title": "Inteligencia Emocional",
+          "description": "Comprender el impacto humano y las dinámicas de relación de las decisiones."
+        },
+        "creative": {
+          "title": "Soluciones Creativas",
+          "description": "Explorar enfoques innovadores y posibilidades no convencionales."
+        }
+      }
+    },
+    "technology": {
+      "title": "Nuestra Tecnología",
+      "content": "Construido sobre tecnologías de inteligencia artificial y aprendizaje automático de última generación, NexReason combina procesamiento de lenguaje natural, teoría de decisiones y psicología del comportamiento para proporcionar análisis integral de decisiones. Nuestra plataforma está diseñada para ser intuitiva, segura y mejorar continuamente a través de comentarios de usuarios y entrenamiento avanzado de IA.",
+      "stack": {
+        "ai": "Modelos de IA Avanzados",
+        "ml": "Aprendizaje Automático",
+        "nlp": "Procesamiento de Lenguaje Natural",
+        "security": "Seguridad Empresarial"
+      }
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "content": "NexReason está construido por un equipo diverso de investigadores de IA, científicos de decisiones, psicólogos del comportamiento y expertos en tecnología que son apasionados por mejorar la toma de decisiones humana. Combinamos décadas de experiencia en inteligencia artificial, ciencia cognitiva y diseño de experiencia de usuario para crear herramientas que realmente marquen la diferencia."
+    },
+    "contact": {
+      "title": "Ponte en Contacto",
+      "content": "¡Nos encantaría saber de ti! Ya sea que tengas preguntas, comentarios u oportunidades de asociación, nuestro equipo está aquí para ayudar.",
+      "general": {
+        "title": "Consultas Generales"
+      },
+      "support": {
+        "title": "Soporte"
+      },
+      "button": "Contáctanos"
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudar con cualquier pregunta o comentario",
+    "backToHome": "← Volver al Inicio",
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "firstName": "Nombre",
+      "firstNamePlaceholder": "Ingresa tu nombre",
+      "lastName": "Apellido",
+      "lastNamePlaceholder": "Ingresa tu apellido",
+      "email": "Dirección de Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
+      "subject": "Asunto",
+      "selectSubject": "Selecciona un asunto",
+      "subjects": {
+        "general": "Consulta General",
+        "support": "Soporte Técnico",
+        "business": "Asociación Comercial",
+        "feedback": "Comentarios y Sugerencias",
+        "bug": "Reporte de Error"
+      },
+      "message": "Mensaje",
+      "messagePlaceholder": "Dinos cómo podemos ayudarte...",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "direct": {
+        "title": "Contacto Directo"
+      },
+      "response": {
+        "title": "Tiempos de Respuesta",
+        "general": "Consultas Generales",
+        "generalTime": "24-48 horas",
+        "support": "Soporte Técnico",
+        "supportTime": "12-24 horas",
+        "business": "Consultas Comerciales",
+        "businessTime": "1-3 días laborables"
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes",
+        "description": "Antes de contactarnos, consulta nuestra guía completa para respuestas rápidas a preguntas comunes.",
+        "link": "Ver Guía de Cómo Usar"
+      }
+    }
   }
 } 

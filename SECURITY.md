@@ -67,7 +67,7 @@ RATE_LIMIT_API_MAX_REQUESTS=20       # API requests per window
 
 # Production Security
 FORCE_HTTPS=true                     # Force HTTPS redirects
-DOMAIN=nexreason.com                 # Your production domain
+DOMAIN=nexreasonai.com                 # Your production domain
 ```
 
 ## Security Best Practices
@@ -199,43 +199,4 @@ Use tools like:
 - Monitor rate limiting effectiveness
 
 ### Monthly
-- Update dependencies (`npm audit`)
-- Review security configurations
-- Test security measures
-
-### Quarterly
-- Security audit
-- Penetration testing
-- Review and update security policies
-
-## Compliance & Standards
-
-This implementation follows:
-- **OWASP Top 10** security guidelines
-- **NIST Cybersecurity Framework** principles
-- **Web Application Security** best practices
-- **Privacy by Design** principles
-
-## Support
-
-For security-related questions or to report vulnerabilities:
-- Email: security@nivaraai.com
-- Create a private issue in the repository
-- Contact the development team directly
-
-## 📞 **Security Contact**
-
-For security-related issues or vulnerabilities:
-- Email: security@nivaraai.com
-- Response time: Within 24 hours
-- Severity classification: Critical, High, Medium, Low
-
-## 👥 **Security Team**
-
-**Maintained by**: Alvion AI Security Team
-
----
-
-**Last Updated**: December 2024  
-**Version**: 1.0  
-**Maintained by**: Alvion AI Security Team 
+- Update dependencies (`

@@ -275,5 +275,236 @@
       "senior": "Kıdemli",
       "retired": "Emekli"
     }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "backToHome": "← Ana Sayfaya Dön",
+    "lastUpdated": "Son Güncelleme",
+    "overview": {
+      "title": "Genel Bakış",
+      "content": "NexReason olarak, gizliliğinizi korumaya ve kişisel bilgilerinizi nasıl topladığımız, kullandığımız ve koruduğumuz konusunda şeffaflık sağlamaya kararlıyız. Bu Gizlilik Politikası, AI destekli karar analizi platformumuzu kullandığınızda topladığımız verilere ilişkin uygulamalarımızı açıklar."
+    },
+    "dataCollection": {
+      "title": "Topladığımız Bilgiler",
+      "intro": "Hizmetlerimizi sağlamak ve geliştirmek için aşağıdaki bilgi türlerini topluyoruz:",
+      "items": {
+        "personal": "Kişisel Bilgiler: Hesap oluşturduğunuzda veya bizimle iletişime geçtiğinizde ad, e-posta adresi ve iletişim bilgileri.",
+        "usage": "Kullanım Verileri: Platformumuzu nasıl kullandığınızla ilgili bilgiler, karar sorguları, analiz tercihleri ve etkileşim kalıpları dahil.",
+        "device": "Cihaz Bilgileri: Güvenlik ve analitik amaçları için IP adresi, tarayıcı türü, işletim sistemi ve cihaz tanımlayıcıları.",
+        "cookies": "Çerezler ve İzleme: Deneyiminizi geliştirmek ve analitik veriler toplamak için çerezler ve benzer teknolojiler kullanıyoruz."
+      }
+    },
+    "dataUsage": {
+      "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+      "items": {
+        "service": "AI destekli karar analizi hizmetlerimizi ve kişiselleştirilmiş öneriler sunuyoruz.",
+        "improve": "Algoritmalarımızı, kullanıcı deneyimini geliştiriyoruz ve yeni özellikler geliştiriyoruz.",
+        "support": "Müşteri desteği sağlıyoruz ve sorularınızı yanıtlıyoruz.",
+        "analytics": "Kullanıcı davranışını ve tercihlerini daha iyi anlamak için analitik ve araştırma yapıyoruz.",
+        "advertising": "Google AdSense ve diğer reklam ortakları aracılığıyla ilgili reklamlar gösteriyoruz."
+      }
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Hizmetler",
+      "intro": "Platformumuzu geliştirmek için güvenilir üçüncü taraf hizmetlerle çalışıyoruz:",
+      "google": {
+        "analytics": "Hizmetlerimizi iyileştirmek için web sitesi analitiği ve kullanıcı davranışı öngörüleri için kullanılır.",
+        "adsense": "Ücretsiz hizmetimizi desteklemek için ilgili reklamlar gösterir. AdSense, ilgi alanlarınıza göre reklamlar göstermek için çerezler kullanabilir.",
+        "ai": "Karar analizi özelliklerimizi destekleyen yapay zeka yeteneklerini sağlar."
+      }
+    },
+    "cookies": {
+      "title": "Çerezler ve İzleme",
+      "content": "Deneyiminizi iyileştirmek, tercihlerinizi hatırlamak ve web sitesi trafiğini analiz etmek için çerezler kullanıyoruz. Tarayıcınız aracılığıyla çerez ayarlarını kontrol edebilirsiniz, ancak çerezler devre dışı bırakılırsa bazı özellikler düzgün çalışmayabilir."
+    },
+    "userRights": {
+      "title": "Haklarınız ve Seçimleriniz",
+      "items": {
+        "access": "Hakkınızda sahip olduğumuz kişisel bilgilere erişim ve inceleme.",
+        "correct": "Yanlış veya eksik bilgilerin düzeltilmesini talep etme.",
+        "delete": "Yasal gereklilikler saklı kalmak üzere kişisel bilgilerinizin silinmesini talep etme.",
+        "restrict": "Belirli durumlarda kişisel bilgilerinizin işlenmesinin kısıtlanmasını talep etme.",
+        "portability": "Kişisel bilgilerinizin taşınabilir formatta bir kopyasını talep etme."
+      }
+    },
+    "security": {
+      "title": "Veri Güvenliği",
+      "content": "Kişisel bilgilerinizi yetkisiz erişim, değiştirme, ifşa veya imha etmeye karşı korumak için uygun teknik ve organizasyonel önlemler uyguluyoruz. Ancak, hiçbir internet iletimi %100 güvenli değildir ve mutlak güvenliği garanti edemeyiz."
+    },
+    "contact": {
+      "title": "Bizimle İletişime Geçin",
+      "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
+      "email": "E-posta:",
+      "address": "Adres:",
+      "addressValue": "Financial Center Road, Downtown Dubai"
+    }
+  },
+  "terms": {
+    "title": "Hizmet Şartları",
+    "backToHome": "← Ana Sayfaya Dön",
+    "lastUpdated": "Son Güncelleme",
+    "acceptance": {
+      "title": "Şartları Kabul Etme",
+      "content": "NexReason'a erişerek ve kullanarak, bu anlaşmanın şartlarını ve hükümlerini kabul etmiş ve bunlara uymayı kabul etmiş olursunuz. Yukarıdakilere uymayı kabul etmiyorsanız, lütfen bu hizmeti kullanmayın."
+    },
+    "description": {
+      "title": "Hizmet Açıklaması",
+      "content": "NexReason, kullanıcıların bilinçli kararlar almasına yardımcı olmak için öngörüler ve öneriler sağlayan AI destekli bir karar analizi platformudur. Hizmetimiz, analitik, duygusal ve yaratıcı düşünce çerçevelerinde karar senaryolarını analiz etmek için yapay zeka kullanır."
+    },
+    "usage": {
+      "title": "Kabul Edilebilir Kullanım",
+      "intro": "NexReason'ı sorumlu bir şekilde ve bu yönergelere uygun olarak kullanmayı kabul ediyorsunuz:",
+      "rules": {
+        "lawful": "Hizmeti yalnızca yasal amaçlar için ve geçerli yasa ve düzenlemelere uygun olarak kullanın.",
+        "personal": "Hizmeti yalnızca kişisel, eğitim veya meşru ticari amaçlar için kullanın.",
+        "noAbuse": "Diğer kullanıcıları veya personelimizi taciz etmeyin, tehdit etmeyin veya sindirmeyin.",
+        "noHarm": "Hizmeti zararlı, yasadışı veya etik olmayan faaliyetleri desteklemek için kullanmayın.",
+        "respectRights": "NexReason ve üçüncü tarafların fikri mülkiyet haklarına saygı gösterin."
+      }
+    },
+    "prohibited": {
+      "title": "Yasaklanan Faaliyetler",
+      "items": {
+        "illegal": "Hizmeti herhangi bir yasadışı faaliyet için veya herhangi bir yasa veya düzenlemeyi ihlal etmek için kullanmak.",
+        "harmful": "Zararlı, tehdit edici, hakaret içeren veya şiddeti destekleyen içerik göndermek.",
+        "spam": "Sistemimize spam, istenmeyen iletişimler veya aşırı istekler göndermek.",
+        "infringe": "Fikri mülkiyet haklarını ihlal etmek veya başkalarının gizlilik haklarını ihlal etmek.",
+        "malware": "Platformumuza virüs, kötü amaçlı yazılım veya diğer zararlı kodlar yerleştirmek.",
+        "impersonate": "Başkalarının kimliğine bürünmek veya kimliğiniz hakkında yanlış bilgi vermek."
+      }
+    },
+    "intellectualProperty": {
+      "title": "Fikri Mülkiyet",
+      "content": "NexReason'ın metin, grafikler, logolar, simgeler, görüntüler ve yazılım dahil ancak bunlarla sınırlı olmamak üzere tüm içerik, özellik ve işlevselliği NexReason'ın münhasır mülkiyetindedir ve telif hakkı, marka ve diğer fikri mülkiyet yasalarıyla korunmaktadır."
+    },
+    "userContent": {
+      "title": "Kullanıcı İçeriği",
+      "content": "NexReason'a gönderdiğiniz içeriğin sahipliğini korursunuz. Ancak, içerik göndererek, yalnızca hizmetlerimizi sağlamak ve AI algoritmalarımızı geliştirmek amacıyla içeriğinizi kullanma, değiştirme ve görüntüleme konusunda münhasır olmayan, dünya çapında, telif ücretsiz bir lisans vermiş olursunuz."
+    },
+    "disclaimer": {
+      "title": "Hizmet Feragatnamesi",
+      "content": "NexReason, yalnızca bilgilendirme amaçları için AI tarafından üretilen öngörüler ve öneriler sağlar. Analizimiz hukuki, finansal, tıbbi veya diğer uzman konularda profesyonel tavsiye olarak değerlendirilmemelidir. Kullanıcılar kendi kararlarından sorumludur ve uygun olduğunda nitelikli profesyonellere danışmalıdır.",
+      "aiWarning": "Önemli: AI tarafından üretilen içerik hatalar veya önyargılar içerebilir. Önemli kararlar vermeden önce her zaman eleştirel düşünmeyi kullanın ve birden fazla kaynağı değerlendirin."
+    },
+    "limitation": {
+      "title": "Sorumluluk Sınırlaması",
+      "content": "Yasaların izin verdiği maksimum ölçüde, NexReason hizmetimizi kullanımınızdan kaynaklanan doğrudan veya dolaylı olarak katlanılan herhangi bir dolaylı, arızi, özel, sonuçsal veya cezai zarar veya kar veya gelir kaybı ya da veri, kullanım, iyi niyet veya diğer maddi olmayan kayıplardan sorumlu olmayacaktır."
+    },
+    "termination": {
+      "title": "Sonlandırma",
+      "content": "Hizmet Şartlarını ihlal etmeniz dahil ancak bununla sınırlı olmamak üzere, herhangi bir nedenle hizmetimize erişiminizi önceden haber vermeksizin veya sorumluluk üstlenmeksizin derhal sonlandırabilir veya askıya alabiliriz."
+    },
+    "governing": {
+      "title": "Uygulanacak Hukuk",
+      "content": "Bu Şartlar, NexReason'ın faaliyet gösterdiği yargı alanının yasalarına göre, hukuk kuralları çatışması dikkate alınmaksızın yorumlanacak ve yönetilecektir."
+    },
+    "changes": {
+      "title": "Şartlardaki Değişiklikler",
+      "content": "Bu Şartları herhangi bir zamanda değiştirme veya değiştirme hakkını saklı tutarız. Bir revizyon önemliyse, yeni şartların yürürlüğe girmesinden en az 30 gün önce bildirimde bulunmaya çalışacağız."
+    },
+    "contact": {
+      "title": "İletişim Bilgileri",
+      "content": "Bu Hizmet Şartları hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
+      "email": "E-posta:",
+      "address": "Adres:",
+      "addressValue": "Financial Center Road, Downtown Dubai"
+    }
+  },
+  "about": {
+    "title": "NexReason Hakkında",
+    "subtitle": "Yapay zeka ile daha iyi kararları güçlendirmek",
+    "backToHome": "← Ana Sayfaya Dön",
+    "mission": {
+      "title": "Misyonumuz",
+      "content": "NexReason'da, her kararın önemli olduğuna inanıyoruz. Misyonumuz, son teknoloji yapay zekayı insan bilgeliğiyle birleştirerek akıllı karar verme araçlarına erişimi demokratikleştirmektir. Mantık, duygu ve yaratıcılığı değerlendiren kapsamlı analiz yoluyla bireyleri ve kuruluşları daha iyi seçimler yapmaya güçlendiriyoruz."
+    },
+    "whatWeDo": {
+      "title": "Ne Yapıyoruz",
+      "intro": "NexReason, karmaşık seçimleri net, eyleme geçirilebilir öngörülere dönüştüren AI destekli bir karar analizi platformudur. Gelişmiş algoritmalarımız kararlarınızı birden fazla düşünce çerçevesi aracılığıyla analiz eder:",
+      "features": {
+        "analytical": {
+          "title": "Analitik Düşünme",
+          "description": "Mantıksal akıl yürütme ve risk değerlendirmesi ile veri odaklı analiz."
+        },
+        "emotional": {
+          "title": "Duygusal Zeka",
+          "description": "Kararların insan etkisini ve ilişki dinamiklerini anlama."
+        },
+        "creative": {
+          "title": "Yaratıcı Çözümler",
+          "description": "Yenilikçi yaklaşımları ve geleneksel olmayan olasılıkları keşfetme."
+        }
+      }
+    },
+    "technology": {
+      "title": "Teknolojimiz",
+      "content": "Son teknoloji yapay zeka ve makine öğrenmesi teknolojileri üzerine inşa edilen NexReason, kapsamlı karar analizi sağlamak için doğal dil işleme, karar teorisi ve davranışsal psikolojiyi birleştirir. Platformumuz sezgisel, güvenli ve kullanıcı geri bildirimleri ve gelişmiş AI eğitimi yoluyla sürekli gelişen olacak şekilde tasarlanmıştır.",
+      "stack": {
+        "ai": "Gelişmiş AI Modelleri",
+        "ml": "Makine Öğrenmesi",
+        "nlp": "Doğal Dil İşleme",
+        "security": "Kurumsal Güvenlik"
+      }
+    },
+    "team": {
+      "title": "Ekibimiz",
+      "content": "NexReason, insan karar verme sürecini iyileştirme konusunda tutkulu AI araştırmacıları, karar bilimcileri, davranışsal psikologlar ve teknoloji uzmanlarından oluşan çeşitli bir ekip tarafından inşa edilmiştir. Gerçekten fark yaratan araçlar yaratmak için yapay zeka, bilişsel bilim ve kullanıcı deneyimi tasarımında onlarca yıllık deneyimi birleştiriyoruz."
+    },
+    "contact": {
+      "title": "İletişime Geçin",
+      "content": "Sizden haber almayı çok isteriz! Sorularınız, geri bildirimleriniz veya ortaklık fırsatlarınız olsun, ekibimiz yardım etmek için burada.",
+      "general": {
+        "title": "Genel Sorular"
+      },
+      "support": {
+        "title": "Destek"
+      },
+      "button": "Bizimle İletişime Geçin"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Herhangi bir soru veya geri bildirim için buradayız",
+    "backToHome": "← Ana Sayfaya Dön",
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "firstName": "Ad",
+      "firstNamePlaceholder": "Adınızı girin",
+      "lastName": "Soyad",
+      "lastNamePlaceholder": "Soyadınızı girin",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "subject": "Konu",
+      "selectSubject": "Bir konu seçin",
+      "subjects": {
+        "general": "Genel Soru",
+        "support": "Teknik Destek",
+        "business": "İş Ortaklığı",
+        "feedback": "Geri Bildirim ve Öneriler",
+        "bug": "Hata Raporu"
+      },
+      "message": "Mesaj",
+      "messagePlaceholder": "Size nasıl yardımcı olabileceğimizi söyleyin...",
+      "submit": "Mesaj Gönder"
+    },
+    "info": {
+      "direct": {
+        "title": "Doğrudan İletişim"
+      },
+      "response": {
+        "title": "Yanıt Süreleri",
+        "general": "Genel Sorular",
+        "generalTime": "24-48 saat",
+        "support": "Teknik Destek",
+        "supportTime": "12-24 saat",
+        "business": "İş Soruları",
+        "businessTime": "1-3 iş günü"
+      },
+      "faq": {
+        "title": "Sık Sorulan Sorular",
+        "description": "Bizimle iletişime geçmeden önce, yaygın soruların hızlı yanıtları için kapsamlı kılavuzumuzu kontrol edin.",
+        "link": "Nasıl Yapılır Kılavuzunu Görüntüle"
+      }
+    }
   }
 } 

@@ -275,5 +275,236 @@
       "senior": "Senior",
       "retired": "Retired"
     }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "backToHome": "← Back to Home",
+    "lastUpdated": "Last Updated",
+    "overview": {
+      "title": "Overview",
+      "content": "At NexReason, we are committed to protecting your privacy and ensuring transparency about how we collect, use, and protect your personal information. This Privacy Policy explains our practices regarding the data we collect when you use our AI-powered decision analysis platform."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "intro": "We collect the following types of information to provide and improve our services:",
+      "items": {
+        "personal": "Personal Information: Name, email address, and contact information when you create an account or contact us.",
+        "usage": "Usage Data: Information about how you use our platform, including decision queries, analysis preferences, and interaction patterns.",
+        "device": "Device Information: IP address, browser type, operating system, and device identifiers for security and analytics purposes.",
+        "cookies": "Cookies and Tracking: We use cookies and similar technologies to enhance your experience and gather analytics data."
+      }
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "items": {
+        "service": "Provide our AI-powered decision analysis services and personalized recommendations.",
+        "improve": "Improve our algorithms, user experience, and develop new features.",
+        "support": "Provide customer support and respond to your inquiries.",
+        "analytics": "Conduct analytics and research to better understand user behavior and preferences.",
+        "advertising": "Display relevant advertisements through Google AdSense and other advertising partners."
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "intro": "We work with trusted third-party services to enhance our platform:",
+      "google": {
+        "analytics": "Used for website analytics and user behavior insights to improve our services.",
+        "adsense": "Displays relevant advertisements to support our free service. AdSense may use cookies to show ads based on your interests.",
+        "ai": "Provides the artificial intelligence capabilities that power our decision analysis features."
+      }
+    },
+    "cookies": {
+      "title": "Cookies and Tracking",
+      "content": "We use cookies to improve your experience, remember your preferences, and analyze website traffic. You can control cookie settings through your browser, but some features may not function properly if cookies are disabled."
+    },
+    "userRights": {
+      "title": "Your Rights and Choices",
+      "items": {
+        "access": "Access and review the personal information we have about you.",
+        "correct": "Request corrections to any inaccurate or incomplete information.",
+        "delete": "Request deletion of your personal information, subject to legal requirements.",
+        "restrict": "Request restriction of processing your personal information in certain circumstances.",
+        "portability": "Request a copy of your personal information in a portable format."
+      }
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no internet transmission is 100% secure, and we cannot guarantee absolute security."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy or our data practices, please contact us:",
+      "email": "Email:",
+      "address": "Address:",
+      "addressValue": "Financial Center Road, Downtown Dubai"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "backToHome": "← Back to Home",
+    "lastUpdated": "Last Updated",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using NexReason, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+    },
+    "description": {
+      "title": "Service Description",
+      "content": "NexReason is an AI-powered decision analysis platform that provides insights and recommendations to help users make informed decisions. Our service uses artificial intelligence to analyze decision scenarios across analytical, emotional, and creative thinking frameworks."
+    },
+    "usage": {
+      "title": "Acceptable Use",
+      "intro": "You agree to use NexReason responsibly and in accordance with these guidelines:",
+      "rules": {
+        "lawful": "Use the service only for lawful purposes and in accordance with applicable laws and regulations.",
+        "personal": "Use the service for personal, educational, or legitimate business purposes only.",
+        "noAbuse": "Do not abuse, harass, threaten, or intimidate other users or our staff.",
+        "noHarm": "Do not use the service to promote harmful, illegal, or unethical activities.",
+        "respectRights": "Respect the intellectual property rights of NexReason and third parties."
+      }
+    },
+    "prohibited": {
+      "title": "Prohibited Activities",
+      "items": {
+        "illegal": "Using the service for any illegal activities or to violate any laws or regulations.",
+        "harmful": "Submitting content that is harmful, threatening, abusive, or promotes violence.",
+        "spam": "Sending spam, unsolicited communications, or excessive requests to our system.",
+        "infringe": "Infringing on intellectual property rights or violating privacy rights of others.",
+        "malware": "Introducing viruses, malware, or other harmful code to our platform.",
+        "impersonate": "Impersonating others or providing false information about your identity."
+      }
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": "All content, features, and functionality of NexReason, including but not limited to text, graphics, logos, icons, images, and software, are the exclusive property of NexReason and are protected by copyright, trademark, and other intellectual property laws."
+    },
+    "userContent": {
+      "title": "User Content",
+      "content": "You retain ownership of the content you submit to NexReason. However, by submitting content, you grant us a non-exclusive, worldwide, royalty-free license to use, modify, and display your content solely for the purpose of providing our services and improving our AI algorithms."
+    },
+    "disclaimer": {
+      "title": "Service Disclaimer",
+      "content": "NexReason provides AI-generated insights and recommendations for informational purposes only. Our analysis should not be considered as professional advice for legal, financial, medical, or other specialized matters. Users are responsible for their own decisions and should consult qualified professionals when appropriate.",
+      "aiWarning": "Important: AI-generated content may contain errors or biases. Always use critical thinking and consider multiple sources before making important decisions."
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "content": "To the maximum extent permitted by law, NexReason shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from your use of our service."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "We may terminate or suspend your access to our service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms of Service."
+    },
+    "governing": {
+      "title": "Governing Law",
+      "content": "These Terms shall be interpreted and governed by the laws of the jurisdiction in which NexReason operates, without regard to its conflict of law provisions."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "content": "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days notice prior to any new terms taking effect."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "If you have any questions about these Terms of Service, please contact us:",
+      "email": "Email:",
+      "address": "Address:",
+      "addressValue": "Financial Center Road, Downtown Dubai"
+    }
+  },
+  "about": {
+    "title": "About NexReason",
+    "subtitle": "Empowering better decisions through artificial intelligence",
+    "backToHome": "← Back to Home",
+    "mission": {
+      "title": "Our Mission",
+      "content": "At NexReason, we believe that every decision matters. Our mission is to democratize access to intelligent decision-making tools by combining cutting-edge artificial intelligence with human wisdom. We empower individuals and organizations to make better choices through comprehensive analysis that considers logic, emotion, and creativity."
+    },
+    "whatWeDo": {
+      "title": "What We Do",
+      "intro": "NexReason is an AI-powered decision analysis platform that transforms complex choices into clear, actionable insights. Our advanced algorithms analyze your decisions through multiple thinking frameworks:",
+      "features": {
+        "analytical": {
+          "title": "Analytical Thinking",
+          "description": "Data-driven analysis with logical reasoning and risk assessment."
+        },
+        "emotional": {
+          "title": "Emotional Intelligence",
+          "description": "Understanding the human impact and relationship dynamics of decisions."
+        },
+        "creative": {
+          "title": "Creative Solutions",
+          "description": "Exploring innovative approaches and unconventional possibilities."
+        }
+      }
+    },
+    "technology": {
+      "title": "Our Technology",
+      "content": "Built on state-of-the-art artificial intelligence and machine learning technologies, NexReason combines natural language processing, decision theory, and behavioral psychology to provide comprehensive decision analysis. Our platform is designed to be intuitive, secure, and continuously improving through user feedback and advanced AI training.",
+      "stack": {
+        "ai": "Advanced AI Models",
+        "ml": "Machine Learning",
+        "nlp": "Natural Language Processing",
+        "security": "Enterprise Security"
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "content": "NexReason is built by a diverse team of AI researchers, decision scientists, behavioral psychologists, and technology experts who are passionate about improving human decision-making. We combine decades of experience in artificial intelligence, cognitive science, and user experience design to create tools that truly make a difference."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "content": "We'd love to hear from you! Whether you have questions, feedback, or partnership opportunities, our team is here to help.",
+      "general": {
+        "title": "General Inquiries"
+      },
+      "support": {
+        "title": "Support"
+      },
+      "button": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with any questions or feedback",
+    "backToHome": "← Back to Home",
+    "form": {
+      "title": "Send us a Message",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Enter your first name",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Enter your last name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "subjects": {
+        "general": "General Inquiry",
+        "support": "Technical Support",
+        "business": "Business Partnership",
+        "feedback": "Feedback & Suggestions",
+        "bug": "Bug Report"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send Message"
+    },
+    "info": {
+      "direct": {
+        "title": "Direct Contact"
+      },
+      "response": {
+        "title": "Response Times",
+        "general": "General Inquiries",
+        "generalTime": "24-48 hours",
+        "support": "Technical Support",
+        "supportTime": "12-24 hours",
+        "business": "Business Inquiries",
+        "businessTime": "1-3 business days"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "description": "Before reaching out, check our comprehensive guide for quick answers to common questions.",
+        "link": "View How-to Guide"
+      }
+    }
   }
 } 
