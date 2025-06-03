@@ -9,8 +9,10 @@ FROM base AS deps
 RUN apk add --no-cache libc6-compat
 
 # Copy package files
-COPY package.json package-lock.json* ./
-RUN npm ci --only=production && npm cache clean --force
+COPY package.json ./
+
+# Install all dependencies for building
+RUN npm install && npm cache clean --force
 
 # Build the application
 FROM base AS builder
