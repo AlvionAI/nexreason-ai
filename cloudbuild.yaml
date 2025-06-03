@@ -16,7 +16,7 @@ steps:
       - '--image'
       - 'gcr.io/$PROJECT_ID/nexreason-ai:latest'
       - '--region'
-      - 'europe-west3'
+      - 'europe-west1'
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
