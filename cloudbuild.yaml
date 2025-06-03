@@ -1,22 +1,22 @@
 steps:
   # Build the Docker image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/nexreason:$COMMIT_SHA', '.']
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/nexreason-ai:latest', '.']
   
   # Push the image to Google Container Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/$PROJECT_ID/nexreason:$COMMIT_SHA']
+    args: ['push', 'gcr.io/$PROJECT_ID/nexreason-ai:latest']
   
   # Deploy to Cloud Run
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
       - 'deploy'
-      - 'nexreason'
+      - 'nexreason-ai'
       - '--image'
-      - 'gcr.io/$PROJECT_ID/nexreason:$COMMIT_SHA'
+      - 'gcr.io/$PROJECT_ID/nexreason-ai:latest'
       - '--region'
-      - 'us-central1'
+      - 'europe-west3'
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
